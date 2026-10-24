@@ -1,0 +1,959 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51551,
+     25.07505
+    ]
+   },
+   "properties": {
+    "name": "圓山",
+    "id": "A008",
+    "kind": "人行地下道",
+    "district": "松山區",
+    "route": "中山北路三段兒童育樂中心、美術館前",
+    "length": 31.47
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51408333,
+     25.07472222
+    ]
+   },
+   "properties": {
+    "name": "啟聰",
+    "id": "A010",
+    "kind": "人行地下道",
+    "district": "萬華區",
+    "route": "重慶北路三段320號啟聰學校前",
+    "length": 61.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.533124,
+     25.062139
+    ]
+   },
+   "properties": {
+    "name": "行天宮",
+    "id": "A011",
+    "kind": "人行地下道",
+    "district": "松山區",
+    "route": "民權東路、松江路口",
+    "length": 116.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.513449,
+     25.062877
+    ]
+   },
+   "properties": {
+    "name": "重慶民權",
+    "id": "A012",
+    "kind": "人行地下道",
+    "district": "萬華區",
+    "route": "重慶北路、民權西路口",
+    "length": 99.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.510904,
+     25.062833
+    ]
+   },
+   "properties": {
+    "name": "臺北橋(二)",
+    "id": "A013",
+    "kind": "人行地下道",
+    "district": "萬華區",
+    "route": "延平北路二段三段跨越民權西路",
+    "length": 47.4
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.545285,
+     25.151922
+    ]
+   },
+   "properties": {
+    "name": "陽明山",
+    "id": "A016",
+    "kind": "人行地下道",
+    "district": "南港區",
+    "route": "紗帽路150號",
+    "length": 41.6
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51963889,
+     25.04566667
+    ]
+   },
+   "properties": {
+    "name": "行政院",
+    "id": "A017",
+    "kind": "人行地下道",
+    "district": "大安區",
+    "route": "忠孝東路一段、中山北路口行政院右側",
+    "length": 69.8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.532539,
+     25.01663
+    ]
+   },
+   "properties": {
+    "name": "臺大",
+    "id": "A021",
+    "kind": "人行地下道",
+    "district": "大安區",
+    "route": "羅斯福路三段、新生南路口",
+    "length": 162.12
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53667331,
+     25.01168974
+    ]
+   },
+   "properties": {
+    "name": "公館(一)",
+    "id": "A022",
+    "kind": "人行地下道",
+    "district": "大安區",
+    "route": "羅斯福路四段、基隆路口北側",
+    "length": 112.3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52732976,
+     25.0340402
+    ]
+   },
+   "properties": {
+    "name": "信義金山",
+    "id": "A025",
+    "kind": "人行地下道",
+    "district": "大安區",
+    "route": "信義路、金山南路口",
+    "length": 131.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52183333,
+     25.03891667
+    ]
+   },
+   "properties": {
+    "name": "仁愛林森",
+    "id": "A026",
+    "kind": "人行地下道",
+    "district": "大安區",
+    "route": "仁愛路、林森南路口",
+    "length": 127.55
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52810097,
+     25.02659374
+    ]
+   },
+   "properties": {
+    "name": "師大和平",
+    "id": "A027",
+    "kind": "人行地下道",
+    "district": "中山區",
+    "route": "和平東路一段、師大路口",
+    "length": 40.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52841747,
+     25.02584518
+    ]
+   },
+   "properties": {
+    "name": "師大",
+    "id": "A028",
+    "kind": "人行地下道",
+    "district": "中山區",
+    "route": "師大校區內穿越師大路",
+    "length": 15.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53531611,
+     25.0419382
+    ]
+   },
+   "properties": {
+    "name": "臺北科大",
+    "id": "A029",
+    "kind": "人行地下道",
+    "district": "中山區",
+    "route": "忠孝東路二段、台北科技大學前",
+    "length": 67.32
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.551395,
+     25.048246
+    ]
+   },
+   "properties": {
+    "name": "社教館",
+    "id": "A034",
+    "kind": "人行地下道",
+    "district": "中正區",
+    "route": "八德路三段、社教館前",
+    "length": 184.27
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.497584,
+     25.019236
+    ]
+   },
+   "properties": {
+    "name": "萬大富民",
+    "id": "A035",
+    "kind": "人行地下道",
+    "district": "信義區",
+    "route": "萬大路、富民街口",
+    "length": 39.25
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.533253,
+     25.057758
+    ]
+   },
+   "properties": {
+    "name": "松江民生",
+    "id": "A037",
+    "kind": "人行地下道",
+    "district": "松山區",
+    "route": "松江路、民生東路口",
+    "length": 64.1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.54883981,
+     25.02106207
+    ]
+   },
+   "properties": {
+    "name": "敦化基隆",
+    "id": "A042",
+    "kind": "人行地下道",
+    "district": "中山區",
+    "route": "基隆路敦化南路口",
+    "length": 124.43
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.519534,
+     25.118724
+    ]
+   },
+   "properties": {
+    "name": "榮總",
+    "id": "A043",
+    "kind": "人行地下道",
+    "district": "南港區",
+    "route": "石碑路二段",
+    "length": 80.95
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52747,
+     25.097645
+    ]
+   },
+   "properties": {
+    "name": "福林",
+    "id": "A044",
+    "kind": "人行地下道",
+    "district": "內湖區",
+    "route": "中山北路",
+    "length": 60.1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.54483333,
+     25.07963889
+    ]
+   },
+   "properties": {
+    "name": "大直",
+    "id": "A049",
+    "kind": "人行地下道",
+    "district": "松山區",
+    "route": "北安路",
+    "length": 182.01
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52540803,
+     25.02070235
+    ]
+   },
+   "properties": {
+    "name": "汀州師大",
+    "id": "A050",
+    "kind": "人行地下道",
+    "district": "大安區",
+    "route": "汀州路、師大路口",
+    "length": 88.65
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.55075,
+     25.08622222
+    ]
+   },
+   "properties": {
+    "name": "大直機車道",
+    "id": "B002",
+    "kind": "車行地下道",
+    "district": "松山區",
+    "route": "北安路、自強隧道口前",
+    "length": 239.1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51832,
+     25.046133
+    ]
+   },
+   "properties": {
+    "name": "忠孝西路",
+    "id": "B003",
+    "kind": "車行地下道",
+    "district": "大安區",
+    "route": "忠孝東路及忠孝西路口",
+    "length": 280.6
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53713465,
+     25.01116471
+    ]
+   },
+   "properties": {
+    "name": "公館",
+    "id": "B004",
+    "kind": "車行地下道",
+    "district": "大安區",
+    "route": "羅斯福路、基隆路口",
+    "length": 328.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52147055,
+     25.03845342
+    ]
+   },
+   "properties": {
+    "name": "林森南路",
+    "id": "B005",
+    "kind": "車行地下道",
+    "district": "大安區",
+    "route": "林森南路(仁愛路一段至羅斯福路一段)",
+    "length": 685.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.516612,
+     25.022025
+    ]
+   },
+   "properties": {
+    "name": "水源",
+    "id": "B006",
+    "kind": "車行地下道",
+    "district": "大安區",
+    "route": "水源路、重慶南路三段口",
+    "length": 41.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52826663,
+     25.01880655
+    ]
+   },
+   "properties": {
+    "name": "三總",
+    "id": "B007",
+    "kind": "車行地下道",
+    "district": "大安區",
+    "route": "辛亥路、羅斯福路口",
+    "length": 573.6
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.54668331,
+     25.01915655
+    ]
+   },
+   "properties": {
+    "name": "辛亥",
+    "id": "B008",
+    "kind": "車行地下道",
+    "district": "中山區",
+    "route": "辛亥路、基隆路口",
+    "length": 452.3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5251026,
+     25.0860409
+    ]
+   },
+   "properties": {
+    "name": "劍潭站",
+    "id": "A051",
+    "kind": "人行地下道",
+    "district": "內湖區",
+    "route": "基河路、中山北路",
+    "length": 150.3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.49091667,
+     25.13811111
+    ]
+   },
+   "properties": {
+    "name": "中央稻香",
+    "id": "A052",
+    "kind": "人行地下道",
+    "district": "南港區",
+    "route": "中央北路二段237巷-大業路527巷",
+    "length": 58.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.47038889,
+     25.129
+    ]
+   },
+   "properties": {
+    "name": "忠義",
+    "id": "A053",
+    "kind": "人行地下道",
+    "district": "南港區",
+    "route": "捷運淡水線忠義站中央北路四段428巷前",
+    "length": 43.6
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.47161111,
+     25.12966667
+    ]
+   },
+   "properties": {
+    "name": "和信醫院",
+    "id": "A054",
+    "kind": "人行地下道",
+    "district": "南港區",
+    "route": "捷運淡水線中央北路四段372號前",
+    "length": 38.75
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.46877778,
+     25.1275
+    ]
+   },
+   "properties": {
+    "name": "中央立功",
+    "id": "A055",
+    "kind": "人行地下道",
+    "district": "南港區",
+    "route": "中央北路四段515巷立功路口",
+    "length": 42.1
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.46645651,
+     25.12464162
+    ]
+   },
+   "properties": {
+    "name": "關渡站",
+    "id": "A056",
+    "kind": "人行地下道",
+    "district": "南港區",
+    "route": "捷運淡水線關渡站前",
+    "length": 31.9
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.56294823,
+     25.0384437
+    ]
+   },
+   "properties": {
+    "name": "基隆路(主線北上線)",
+    "id": "B011",
+    "kind": "車行地下道",
+    "district": "大同區",
+    "route": "基隆路一段台北市政府前",
+    "length": 1080.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.49111111,
+     25.13841667
+    ]
+   },
+   "properties": {
+    "name": "中央稻香",
+    "id": "B012",
+    "kind": "車行地下道",
+    "district": "南港區",
+    "route": "中央北路二段257巷",
+    "length": 128.6
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.46843189,
+     25.12810504
+    ]
+   },
+   "properties": {
+    "name": "中央立功",
+    "id": "B013",
+    "kind": "車行地下道",
+    "district": "南港區",
+    "route": "中央北路",
+    "length": 179.3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.56688571,
+     25.03743518
+    ]
+   },
+   "properties": {
+    "name": "新光連通道",
+    "id": "A061",
+    "kind": "人行地下道",
+    "district": "大同區",
+    "route": "信義區A10富邦人壽大樓連通A8、A11、A12主通道",
+    "length": 47.65
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.524215,
+     25.080546
+    ]
+   },
+   "properties": {
+    "name": "中山通河",
+    "id": "A062",
+    "kind": "人行地下道",
+    "district": "內湖區",
+    "route": "士林中山北路4段通河街口",
+    "length": 72.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.57176994,
+     25.03232813
+    ]
+   },
+   "properties": {
+    "name": "中強公園",
+    "id": "A063",
+    "kind": "人行地下道",
+    "district": "大同區",
+    "route": "信義苗圃至中強公園",
+    "length": 42.8
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5715313,
+     25.03268898
+    ]
+   },
+   "properties": {
+    "name": "信義",
+    "id": "B014",
+    "kind": "車行地下道",
+    "district": "大同區",
+    "route": "信義路五段 ,松仁路至松德路",
+    "length": 372.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.517945,
+     25.040822
+    ]
+   },
+   "properties": {
+    "name": "臺大醫院",
+    "id": "A064",
+    "kind": "人行地下道",
+    "district": "大安區",
+    "route": "中山南路.常德街口",
+    "length": 78.15
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.56264782,
+     25.03830761
+    ]
+   },
+   "properties": {
+    "name": "基隆路(主線南下線)",
+    "id": "B011",
+    "kind": "車行地下道",
+    "district": "大同區",
+    "route": "基隆路一段台北市政府前",
+    "length": 1107.3
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.56290531,
+     25.03824929
+    ]
+   },
+   "properties": {
+    "name": "基隆路(機車道北上線)",
+    "id": "B011",
+    "kind": "車行地下道",
+    "district": "大同區",
+    "route": "基隆路一段台北市政府前",
+    "length": 619.7
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.56225085,
+     25.03775354
+    ]
+   },
+   "properties": {
+    "name": "基隆路(機車道南下線)",
+    "id": "B011",
+    "kind": "車行地下道",
+    "district": "大同區",
+    "route": "基隆路一段台北市政府前",
+    "length": 483.5
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5444013,
+     25.06878337
+    ]
+   },
+   "properties": {
+    "name": "復北-北行線",
+    "id": "B015N",
+    "kind": "車行地下道",
+    "district": "松山區",
+    "route": "復興北路自民族東路至濱江街",
+    "length": 677.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.57315022,
+     25.0606248
+    ]
+   },
+   "properties": {
+    "name": "新民權",
+    "id": "A066",
+    "kind": "人行地下道",
+    "district": "北投區",
+    "route": "環東大道",
+    "length": 51.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.54421724,
+     25.06914062
+    ]
+   },
+   "properties": {
+    "name": "復北-南行線",
+    "id": "B015S",
+    "kind": "車行地下道",
+    "district": "松山區",
+    "route": "復興北路自民族東路至濱江街",
+    "length": 677.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.61676294,
+     25.05799461
+    ]
+   },
+   "properties": {
+    "name": "經貿園區PC06",
+    "id": "A067",
+    "kind": "人行地下道",
+    "district": "文山區",
+    "route": "經貿一路",
+    "length": 108.51
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.56504995,
+     25.0391832
+    ]
+   },
+   "properties": {
+    "name": "統一連通道",
+    "id": "A068",
+    "kind": "人行地下道",
+    "district": "大同區",
+    "route": "興雅路至松高路下方主通道",
+    "length": 80.55
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.61669321,
+     25.05610546
+    ]
+   },
+   "properties": {
+    "name": "經貿園區PC07",
+    "id": "A071",
+    "kind": "人行地下道",
+    "district": "文山區",
+    "route": "經貿二路",
+    "length": 130.0
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52751646,
+     25.06839053
+    ]
+   },
+   "properties": {
+    "name": "民族新生地下道",
+    "id": "B016",
+    "kind": "車行地下道",
+    "district": "松山區",
+    "route": "民族東路新生北路口",
+    "length": 0.0
+   }
+  }
+ ]
+}

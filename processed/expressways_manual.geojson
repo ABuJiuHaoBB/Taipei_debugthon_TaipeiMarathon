@@ -1,0 +1,661 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.56885,
+     25.03295
+    ]
+   },
+   "properties": {
+    "expressway": "信義快速道路",
+    "location": "信義路5段與松勇路口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5746,
+     24.99825
+    ]
+   },
+   "properties": {
+    "expressway": "信義快速道路",
+    "location": "木柵路4段與木柵路5段口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.54384,
+     25.01664
+    ]
+   },
+   "properties": {
+    "expressway": "基隆高架道路",
+    "location": "基隆路與長興街口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.55045,
+     25.02235
+    ]
+   },
+   "properties": {
+    "expressway": "基隆高架道路",
+    "location": "基隆路與樂業街口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5694,
+     25.0695
+    ]
+   },
+   "properties": {
+    "expressway": "堤頂大道",
+    "location": "堤頂大道1段",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.56865,
+     25.04395
+    ]
+   },
+   "properties": {
+    "expressway": "市民大道高架道路",
+    "location": "永吉路與永吉路30巷口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5661,
+     25.0481
+    ]
+   },
+   "properties": {
+    "expressway": "市民大道高架道路",
+    "location": "市民大道5段與東寧路口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5576,
+     25.0449
+    ]
+   },
+   "properties": {
+    "expressway": "市民大道高架道路",
+    "location": "市民大道4段與光復南路口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53705,
+     25.04495
+    ]
+   },
+   "properties": {
+    "expressway": "市民大道高架道路",
+    "location": "市民大道3段與建國南路口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5293,
+     25.0454
+    ]
+   },
+   "properties": {
+    "expressway": "市民大道高架道路",
+    "location": "市民大道3段與金山北路口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5136,
+     25.0497
+    ]
+   },
+   "properties": {
+    "expressway": "市民大道高架道路",
+    "location": "鄭州路與重慶北路1段口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.50825,
+     25.05075
+    ]
+   },
+   "properties": {
+    "expressway": "市民大道高架道路",
+    "location": "鄭州路與環河北路1段口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53055,
+     25.0185
+    ]
+   },
+   "properties": {
+    "expressway": "建國南北快速道路",
+    "location": "辛亥路與羅斯福路3段口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53725,
+     25.0218
+    ]
+   },
+   "properties": {
+    "expressway": "建國南北快速道路",
+    "location": "辛亥路與建國南路口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5372,
+     25.02615
+    ]
+   },
+   "properties": {
+    "expressway": "建國南北快速道路",
+    "location": "建國南路2段與和平東路2段口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53725,
+     25.0345
+    ]
+   },
+   "properties": {
+    "expressway": "建國南北快速道路",
+    "location": "建國南路1段341巷口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53715,
+     25.03795
+    ]
+   },
+   "properties": {
+    "expressway": "建國南北快速道路",
+    "location": "建國南路1段與仁愛路3段口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5371,
+     25.0417
+    ]
+   },
+   "properties": {
+    "expressway": "建國南北快速道路",
+    "location": "建國南路1段與忠孝東路3段口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53695,
+     25.0483
+    ]
+   },
+   "properties": {
+    "expressway": "建國南北快速道路",
+    "location": "建國北路1段與長安東路2段口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5369,
+     25.0519
+    ]
+   },
+   "properties": {
+    "expressway": "建國南北快速道路",
+    "location": "建國北路1段與南京東路3段口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53685,
+     25.05495
+    ]
+   },
+   "properties": {
+    "expressway": "建國南北快速道路",
+    "location": "建國北路2段與長春路口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5368,
+     25.06285
+    ]
+   },
+   "properties": {
+    "expressway": "建國南北快速道路",
+    "location": "建國北路2段與民權東路2段口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5375,
+     25.0715
+    ]
+   },
+   "properties": {
+    "expressway": "建國南北快速道路",
+    "location": "國道高速公路濱江街匝道口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53675,
+     25.0706
+    ]
+   },
+   "properties": {
+    "expressway": "建國南北快速道路",
+    "location": "建國北路3段與濱江街口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52985,
+     25.04025
+    ]
+   },
+   "properties": {
+    "expressway": "新生高架道路",
+    "location": "金山南路1段與濟南路2段口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5296,
+     25.04275
+    ]
+   },
+   "properties": {
+    "expressway": "新生高架道路",
+    "location": "金山北路與忠孝東路2段口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52945,
+     25.0442
+    ]
+   },
+   "properties": {
+    "expressway": "新生高架道路",
+    "location": "金山北路與八德路1段口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52845,
+     25.04835
+    ]
+   },
+   "properties": {
+    "expressway": "新生高架道路",
+    "location": "新生北路1段與長安東路2段口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52765,
+     25.0549
+    ]
+   },
+   "properties": {
+    "expressway": "新生高架道路",
+    "location": "新生北路1段與長春路口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5276,
+     25.05815
+    ]
+   },
+   "properties": {
+    "expressway": "新生高架道路",
+    "location": "新生北路1段與民生東路2段口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5275,
+     25.06285
+    ]
+   },
+   "properties": {
+    "expressway": "新生高架道路",
+    "location": "新生北路3段與民權東路2段口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5249,
+     25.0789
+    ]
+   },
+   "properties": {
+    "expressway": "新生高架道路",
+    "location": "中山北路4段與通河街口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5262,
+     25.0182
+    ]
+   },
+   "properties": {
+    "expressway": "水源快速道路",
+    "location": "水源快速道路銜接師大路與汀洲路口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.4959,
+     25.0207
+    ]
+   },
+   "properties": {
+    "expressway": "水源快速道路",
+    "location": "萬大路與環河南路3段口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.49075,
+     25.02735
+    ]
+   },
+   "properties": {
+    "expressway": "水源快速道路",
+    "location": "環河南路1段與西園路2段口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.4991,
+     25.12215
+    ]
+   },
+   "properties": {
+    "expressway": "洲美快速道路",
+    "location": "大業路與三合街口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.50375,
+     25.097
+    ]
+   },
+   "properties": {
+    "expressway": "洲美快速道路",
+    "location": "延平北路6段與7段口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.57945,
+     25.05585
+    ]
+   },
+   "properties": {
+    "expressway": "環東大道",
+    "location": "舊宗路1段與新明路298巷",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5078,
+     25.05685
+    ]
+   },
+   "properties": {
+    "expressway": "環河快速道路",
+    "location": "環河北路1段與民生西路口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.50805,
+     25.0539
+    ]
+   },
+   "properties": {
+    "expressway": "環河快速道路",
+    "location": "環河北路2段與南京西路口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.50825,
+     25.05075
+    ]
+   },
+   "properties": {
+    "expressway": "環河快速道路",
+    "location": "環河北路1段與鄭州路口",
+    "source": "手動查詢",
+    "note": "手動"
+   }
+  }
+ ]
+}

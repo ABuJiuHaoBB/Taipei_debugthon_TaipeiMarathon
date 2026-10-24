@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>台北馬拉松路路線盤點（優化路線）</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<!-- 讓 OSM 圖磚收到 Referer，避免 403 阻擋 -->
+<meta name="referrer" content="no-referrer-when-downgrade">
+<!-- 避免快取舊版資料/頁面 -->
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="pragma" content="no-cache">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  html,body{margin:0;height:100%;font-family:system-ui,"Noto Sans TC",sans-serif}
+  #map{position:absolute;inset:0}
+  .panel{position:absolute;top:10px;left:10px;z-index:1000;background:#fff;border-radius:8px;
+         box-shadow:0 2px 8px rgba(0,0,0,.25);padding:14px;max-width:330px;font-size:13px}
+  .panel h1{font-size:15px;margin:0 0 8px}
+  .panel p{color:#555;margin:6px 0}
+  .legend{margin-top:8px}
+  .legend div{margin:4px 0;display:flex;align-items:center}
+  .dot{width:14px;height:14px;border-radius:50%;margin-right:8px;display:inline-block}
+  .route-num{background:#c2185b;color:#fff;font-weight:700;font-size:12px;text-align:center;line-height:22px;border-radius:50%;border:2px solid #fff}
+  .route-km{background:#1565c0;color:#fff;font-weight:700;font-size:12px;text-align:center;line-height:20px;border-radius:10px;border:2px solid #fff}
+  .route-sf{color:#fff;font-weight:700;font-size:13px;text-align:center;line-height:30px;border-radius:6px;border:2px solid #fff}
+  .counts{color:#444;margin-top:8px}
+  button{cursor:pointer;padding:5px 10px;border:1px solid #ccc;background:#f4f4f4;border-radius:6px}
+</style>
+</head>
+<body>
+<div id="map"></div>
+<div class="panel">
+  <h1>台北馬拉松路路線盤點（優化路線）</h1>
+  <p>標記「穿越點」（地下道／捷運出入口）與「緊急機構」（消防隊／警察局／醫院）。路跑路線應盡量避免影響這些機構。</p>
+  <div class="legend">
+    <div style="font-weight:600">人行穿越</div>
+    <div><span class="dot" style="background:#1f7bd4"></span>人行地下道</div>
+    <div><span class="dot" style="background:#00a65a"></span>人行陸橋</div>
+    <div><span class="dot" style="background:#e0a800"></span>捷運站出入口</div>
+    <div style="font-weight:600">車行穿越</div>
+    <div><span class="dot" style="background:#c33"></span>車行地下道</div>
+    <div><span class="dot" style="background:#8c5a00"></span>高架道路出入口</div>
+    <div style="font-weight:600">緊急機構</div>
+    <div><span class="dot" style="background:#ff7043"></span>消防隊</div>
+    <div><span class="dot" style="background:#d81b60"></span>醫院</div>
+    <div style="font-weight:600">獨立大項</div>
+    <div><span class="dot" style="background:#3949ab"></span>警察局</div>
+    <div><span class="dot" style="background:#c2185b"></span>優化路線(新全馬)</div>
+    <div><span class="dot" style="background:#ffd600"></span>時間點標記</div>
+    <div><span class="dot" style="background:#ff8c00"></span>車行替代路線(橘)</div>
+  </div>
+  <div class="counts" id="counts"></div>
+  <p>
+    <button onclick="toggleLayer('cross')">顯示/隱藏 人行穿越（地下道+陸橋+捷運）</button>
+    <button onclick="toggleLayer('veh')">顯示/隱藏 車行穿越（車行地下道+高架出入口）</button>
+    <button onclick="toggleLayer('emerg')">顯示/隱藏 緊急機構（消防+醫院）</button>
+    <button onclick="toggleLayer('police')">顯示/隱藏 警察局</button>
+    <button onclick="toggleLayer('futureRoute')">顯示/隱藏 優化路線(含時間點)</button>
+    <button onclick="toggleLayer('detour')">顯示/隱藏 車行替代路線(橘)</button>
+    <button onclick="loadBasemap(0)">底圖：低彩度(Esri)</button>
+    <button onclick="loadBasemap(1)">底圖：標準(OSM)</button>
+    <button onclick="loadBasemap(2)">底圖：彩色(Esri街道)</button>
+  </p>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="data.js?v=20251119"></script>
+<script>
+  // 防禦式讀取：資料若未載入（快取/檔案缺失），以空陣列代替，避免中止後續圖層
+  const _EMPTY = { features: [] };
+  const UG = (typeof window !== 'undefined' && window.UNDERGROUND_GEOJSON) || _EMPTY;
+  const MRT = (typeof window !== 'undefined' && window.MRT_EXITS_GEOJSON) || _EMPTY;
+  const FIRE = (typeof window !== 'undefined' && window.FIRE_GEOJSON) || _EMPTY;
+  const POLICE = (typeof window !== 'undefined' && window.POLICE_GEOJSON) || _EMPTY;
+  const HOSP = (typeof window !== 'undefined' && window.HOSPITAL_GEOJSON) || _EMPTY;
+  const FB = (typeof window !== 'undefined' && window.FOOTBRIDGE_GEOJSON) || _EMPTY;
+  const EX = (typeof window !== 'undefined' && window.EXPRESSWAYS_RAMPS_GEOJSON) || _EMPTY;
+  const FUTURE = (typeof window !== 'undefined' && window.FUTURE_ROUTE_GEOJSON) || _EMPTY;
+  const TP = (typeof window !== 'undefined' && window.TIME_POINTS_GEOJSON) || _EMPTY;
+  const DT = (typeof window !== 'undefined' && window.DETOUR_GEOJSON) || _EMPTY;
+  const GAPS = (typeof window !== 'undefined' && window.ROUTE_GAPS_PED_GEOJSON) || _EMPTY;
+  const GAPV = (typeof window !== 'undefined' && window.ROUTE_GAPS_VEH_GEOJSON) || _EMPTY;
+  const EMG = (typeof window !== 'undefined' && window.ROUTE_EMERGENCY_GEOJSON) || _EMPTY;
+  // 若讀取到空資料，顯示提示
+  if (UG.features.length === 0) console.warn('未載入 UNDERGROUND_GEOJSON（請確認 data.js 已更新）');
+
+  const map = L.map('map').setView([25.05, 121.56], 13);
+
+  // 圖磚來源清單：若前一來源被 403/錯誤，自動切換到下一個
+  // 預設使用低彩度底圖（CartoDB Light），點位較多時更清晰；失敗自動切換下一個
+  // 使用不需 API Key 的圖磚來源（Esri / OSM），避免「api key required」
+  const tileProviders = [
+    { name:'Esri-Light', url:'https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', subdomains:'', attribution:'&copy; Esri', maxZoom:16, referrerPolicy:'no-referrer-when-downgrade' },
+    { name:'Esri-Street', url:'https://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', subdomains:'', attribution:'&copy; Esri', maxZoom:18, referrerPolicy:'no-referrer-when-downgrade' },
+    { name:'OSM',      url:'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',  subdomains:'abc',  attribution:'&copy; OpenStreetMap contributors', maxZoom:19, referrerPolicy:'no-referrer-when-downgrade' }
+  ];
+  let currentTile = null;
+  function loadBasemap(idx){
+    if(currentTile) map.removeLayer(currentTile);
+    const p = tileProviders[idx];
+    map.setMaxZoom(p.maxZoom); // 依來源限制最大縮放，避免「Map data not yet available」
+    currentTile = L.tileLayer(p.url, {
+      subdomains: p.subdomains, attribution: p.attribution, maxZoom: p.maxZoom,
+      referrerPolicy: p.referrerPolicy
+    });
+    currentTile.on('tileerror', () => {
+      if (idx < tileProviders.length - 1) { loadBasemap(idx + 1); }
+    });
+    currentTile.addTo(map);
+  }
+  loadBasemap(0); // 預設：低彩度 Esri World Light Gray（上限 zoom 16）
+
+  // 依「種類」拆分地下道
+  const pedFeats = UG.features.filter(f => f.properties.kind === '人行地下道');
+  const vehFeats = UG.features.filter(f => f.properties.kind === '車行地下道');
+
+  function markerColor(kind){
+    return kind === '人行地下道' ? '#1f7bd4' : '#c33';
+  }
+  // GeoJSON 座標為 [lon, lat]，Leaflet 需要 [lat, lon]
+  function toLatLng(c){ return [c[1], c[0]]; }
+  function makeLayer(feats, color, label){
+    const layer = L.layerGroup(feats.map(f => {
+      const p = f.properties;
+      const m = L.circleMarker(toLatLng(f.geometry.coordinates), {
+        radius: 7, color:'#fff', weight:2, fillColor:color, fillOpacity:0.9
+      });
+      m.bindPopup(`<b>${label}</b><br>${p.name}<br>${p.district}<br>${p.route}`);
+      return m;
+    }));
+    return layer;
+  }
+  const pedLayer = makeLayer(pedFeats, '#1f7bd4', '人行地下道');
+  const vehLayer = makeLayer(vehFeats, '#c33', '車行地下道');
+  const mrtLayer = L.layerGroup(MRT.features.map(f => {
+    const p = f.properties;
+    const m = L.circleMarker(toLatLng(f.geometry.coordinates), {
+      radius: 5, color:'#fff', weight:2, fillColor:'#e0a800', fillOpacity:0.9
+    });
+    m.bindPopup(`<b>捷運出入口</b><br>${p.name}<br>出口編號 ${p.exit_no}`);
+    return m;
+  }));
+
+  function makeEmergLayer(feats, color, label){
+    return L.layerGroup(feats.map(f => {
+      const p = f.properties;
+      const m = L.circleMarker(toLatLng(f.geometry.coordinates), {
+        radius: 6, color:'#fff', weight:2, fillColor:color, fillOpacity:0.9
+      });
+      m.bindPopup(`<b>${label}</b><br>${p.name || ''}<br>${p.address || ''}`);
+      return m;
+    }));
+  }
+  const fireLayer   = makeEmergLayer(FIRE.features, '#ff7043', '消防隊');
+  const policeLayer = makeEmergLayer(POLICE.features, '#3949ab', '警察局');
+  const hospLayer   = makeEmergLayer(HOSP.features, '#d81b60', '醫院');
+
+  // 人行陸橋（天橋）：以方點標示
+  const fbLayer = L.layerGroup(FB.features.map(f => {
+    const p = f.properties;
+    const m = L.circleMarker(toLatLng(f.geometry.coordinates), {
+      radius: 7, color:'#fff', weight:2, fillColor:'#00a65a', fillOpacity:0.9
+    });
+    m.bindPopup(`<b>人行陸橋</b><br>${p.name}<br>編號 ${p.code}<br>${p.district}<br>${p.route}`);
+    return m;
+  }));
+
+  // 優化路線（新全馬）：折線 + 每 1km 標記（只寫 1~42 數字，不標轉彎點）
+  function haversine(a,b){
+    const R=6371000;
+    const p1=a[0]*Math.PI/180, p2=b[0]*Math.PI/180;
+    const dphi=(b[0]-a[0])*Math.PI/180, dlam=(b[1]-a[1])*Math.PI/180;
+    const h=Math.sin(dphi/2)**2+Math.cos(p1)*Math.cos(p2)*Math.sin(dlam/2)**2;
+    return 2*R*Math.asin(Math.sqrt(h));
+  }
+  const futureRouteLayer = L.layerGroup();
+  FUTURE.features.forEach(f => {
+    const c = f.geometry.coordinates.map(c2 => toLatLng(c2));
+    const line = L.polyline(c, { color:'#c2185b', weight:5, opacity:0.9 });
+    line.bindPopup(`<b>優化路線</b><br>${f.properties.label || '新全馬路線'}<br>共 ${c.length} 個路線點`);
+    futureRouteLayer.addLayer(line);
+    // 每 1km 標記（標籤只寫數字）
+    let acc = 0, nextKm = 1;
+    for(let i=1;i<c.length;i++){
+      const a=c[i-1], b=c[i];
+      const d=haversine(a,b);
+      while(acc+d >= nextKm*1000){
+        const t=(nextKm*1000-acc)/d;
+        const pt=[a[0]+(b[0]-a[0])*t, a[1]+(b[1]-a[1])*t];
+        const kmMarker=L.marker(pt, { icon:L.divIcon({ className:'route-km', html:String(nextKm), iconSize:[26,20], iconAnchor:[13,10] }) });
+        kmMarker.bindPopup(`<b>${nextKm} km</b>`);
+        futureRouteLayer.addLayer(kmMarker);
+        nextKm++;
+      }
+      acc+=d;
+    }
+    // START / FINISH
+    const startMk = L.marker(c[0], { icon: L.divIcon({ className:'route-sf', html:'<span style="background:#2e7d32;color:#fff;font-weight:700;padding:4px 6px;border-radius:6px;border:2px solid #fff">START</span>', iconSize:[30,30], iconAnchor:[15,15] }) });
+    startMk.bindPopup('<b>起點 START</b>');
+    futureRouteLayer.addLayer(startMk);
+    const finishMk = L.marker(c[c.length-1], { icon: L.divIcon({ className:'route-sf', html:'<span style="background:#c62828;color:#fff;font-weight:700;padding:4px 6px;border-radius:6px;border:2px solid #fff">FINISH</span>', iconSize:[30,30], iconAnchor:[15,15] }) });
+    finishMk.bindPopup('<b>終點 FINISH</b>');
+    futureRouteLayer.addLayer(finishMk);
+  });
+
+  // 時間點標記（START/各 km 的預估時間）：明顯橘色時間標籤
+  const timeLayer = L.layerGroup(TP.features.map(f => {
+    const p = f.properties;
+    const m = L.marker(toLatLng(f.geometry.coordinates), {
+      icon: L.divIcon({ className:'time-label', html:`<span style="background:#ff9800;color:#fff;font-weight:700;padding:3px 6px;border-radius:6px;border:2px solid #fff">${p.time}</span>`, iconSize:[60,22], iconAnchor:[30,11] })
+    });
+    m.bindPopup(`<b>${p.label}</b><br>時間 ${p.time}`);
+    return m;
+  }));
+
+  // 車行替代路線（橘色箭頭）
+  function bearingDeg(a,b){
+    const dLat=b[0]-a[0], dLon=(b[1]-a[1])*Math.cos(a[0]*Math.PI/180);
+    return (Math.atan2(dLon,dLat)*180/Math.PI+360)%360;
+  }
+  function offset(latlng, bearingDeg, meters){
+    const br=bearingDeg*Math.PI/180;
+    const dLat=meters*Math.cos(br)/111320;
+    const dLon=meters*Math.sin(br)/(111320*Math.cos(latlng[0]*Math.PI/180));
+    return [latlng[0]+dLat, latlng[1]+dLon];
+  }
+  function drawDetour(path, color, label){
+    const latlngs=path.map(c2=>toLatLng(c2));
+    if(latlngs.length<2) return null;
+    const line=L.polyline(latlngs,{color,weight:4,dashArray:'6 4',opacity:0.9});
+    line.bindPopup(`<b>${label}</b>`);
+    const e=latlngs[latlngs.length-1], p=latlngs[latlngs.length-2];
+    const brg=bearingDeg(p,e), size=0.00012;
+    const back1=offset(e,brg+150,size), back2=offset(e,brg-150,size);
+    const arrow=L.polyline([back1,e,back2],{color,weight:5,opacity:0.9});
+    arrow.bindPopup(`<b>${label}</b>`);
+    return L.layerGroup([line,arrow]);
+  }
+  const detourLayer=L.layerGroup();
+  DT.features.forEach(f => {
+    const d=drawDetour(f.geometry.coordinates, f.properties.color||'#ff8c00', f.properties.label||'車行替代路線');
+    if(d) detourLayer.addLayer(d);
+  });
+
+  // 高架/快速道路出入口（完整）
+  const expressLayer = L.layerGroup(EX.features.map(f => {
+    const p = f.properties;
+    const m = L.circleMarker(toLatLng(f.geometry.coordinates), {
+      radius: 6, color:'#fff', weight:2, fillColor:'#8c5a00', fillOpacity:0.9
+    });
+    m.bindPopup(`<b>高架道路出入口</b><br>${p.location}<br>${p.expressway}<br>${p.note}`);
+    return m;
+  }));
+
+  // 整合圖層：人行穿越（地下道+陸橋+捷運）、車行穿越（車行地下道+高架出入口）、緊急機構（消防+醫院）
+  const crossLayer = L.layerGroup([pedLayer, fbLayer, mrtLayer]);
+  const vehCrossLayer = L.layerGroup([vehLayer, expressLayer]);
+  const emergLayer = L.layerGroup([fireLayer, hospLayer]);
+
+  crossLayer.addTo(map); vehCrossLayer.addTo(map);
+  emergLayer.addTo(map); policeLayer.addTo(map);
+  // 優化路線（含時間點標記）合併為一組，共同顯示/隱藏
+  const futureAllLayer = L.layerGroup([futureRouteLayer, timeLayer]);
+  futureAllLayer.addTo(map);
+  detourLayer.addTo(map);
+
+  const layers = { cross: crossLayer, veh: vehCrossLayer,
+                   emerg: emergLayer, police: policeLayer,
+                   futureRoute: futureAllLayer, detour: detourLayer };
+  const shown = { cross:true, veh:true, emerg:true, police:true, futureRoute:true, detour:true };
+  function toggleLayer(k){
+    shown[k] = !shown[k];
+    if(shown[k]) layers[k].addTo(map); else map.removeLayer(layers[k]);
+  }
+
+  document.getElementById('counts').innerHTML =
+    `人行穿越：${pedFeats.length + FB.features.length + MRT.features.length} 點（地下道 ${pedFeats.length}、陸橋 ${FB.features.length}、捷運 ${MRT.features.length}）<br>` +
+    `車行穿越：${vehFeats.length + EX.features.length} 點（車行地下道 ${vehFeats.length}、高架出入口 ${EX.features.length}）<br>` +
+    `緊急機構：${FIRE.features.length + HOSP.features.length} 點（消防 ${FIRE.features.length}、醫院 ${HOSP.features.length}）<br>` +
+    `警察局：${POLICE.features.length} 點<br>` +
+    `優化路線：${FUTURE.features.length} 段（${FUTURE.features.reduce((s,f)=>s+f.geometry.coordinates.length,0)} 個路線點）<br>` +
+    `時間點：${TP.features.length} 個`;
+</script>
+</body>
+</html>

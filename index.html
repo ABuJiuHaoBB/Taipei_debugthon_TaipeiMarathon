@@ -1,0 +1,371 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<title>台北馬拉松路線優化可行性報告</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="referrer" content="no-referrer-when-downgrade">
+<meta http-equiv="cache-control" content="no-cache">
+<meta http-equiv="pragma" content="no-cache">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  html,body{margin:0;font-family:system-ui,"Noto Sans TC",sans-serif}
+  .report{overflow:auto;padding:16px 15% 360px}
+  /* 手機版維持左右 20px */
+  @media (max-width:700px){ .report{padding-left:20px;padding-right:20px} }
+  .report h1{font-size:22px;margin:0 0 8px}
+  .report h2{font-size:17px;margin:18px 0 6px;border-bottom:2px solid #eee;padding-bottom:4px}
+  .report h3{font-size:14px;margin:8px 0 2px}
+  .report p,.report li{font-size:14px;line-height:1.6;color:#333}
+  .report table{border-collapse:collapse;font-size:13px;margin:8px 0}
+  .report th,.report td{border:1px solid #ccc;padding:4px 8px}
+  .report img{max-width:100%;height:auto;border:1px solid #ddd;border-radius:4px}
+  .report figure{margin:10px 0;text-align:center}
+  .report figcaption{font-size:12px;color:#666;margin-top:4px}
+  .float-map{position:fixed;left:0;right:0;bottom:0;z-index:1000;background:#fff;border-top:1px solid #ccc;box-shadow:0 -2px 8px rgba(0,0,0,.2)}
+  .map-header{padding:8px 14px;background:#fff3b0;display:flex;justify-content:space-between;align-items:center;cursor:pointer;border-bottom:1px solid #ddd}
+  .map-header span{font-weight:600;font-size:14px}
+  .map-body{height:75vh;position:relative;transition:height .2s}
+  .float-map.collapsed .map-body{height:15vh;overflow:hidden}
+  #map{position:absolute;inset:0}
+  .controls{position:absolute;top:10px;left:10px;z-index:1000;background:#fff;border-radius:8px;box-shadow:0 2px 8px rgba(0,0,0,.25);padding:10px;font-size:13px;max-width:280px}
+  .ctrl-header{padding:5px 8px;background:#fff3b0;display:flex;justify-content:space-between;align-items:center;cursor:pointer;border-radius:6px}
+  .ctrl-header span{font-weight:600;font-size:13px}
+  .controls.collapsed .ctrl-body{display:none}
+  .controls .grp{font-weight:600;margin:8px 0 2px}
+  button{cursor:pointer;padding:4px 9px;border:1px solid #ccc;background:#f4f4f4;border-radius:6px;margin:2px}
+  .dot{width:13px;height:13px;border-radius:50%;display:inline-block;margin-right:6px}
+  .route-km{background:#1565c0;color:#fff;font-weight:700;font-size:12px;text-align:center;line-height:20px;border-radius:10px;border:2px solid #fff}
+  .legend div{margin:3px 0}
+</style>
+</head>
+<body>
+<div class="report">
+    <h1>市長你給我聽好了：台北馬拉松路線優化</h1>
+
+    <h2>先說在前面</h2>
+    <p>本報告為本人欲參加台北市長候選人沈伯洋舉辦「市政debug松」之選題，未經著作權人同意或授權，任何人不得擅自重製、轉載、散布或刊登。</p>
+    
+    <p>台北馬拉松舉辦多年，在活動過程每一年都會發生影響到人行、車行的穿越事件，以台北市仍有許多人行穿越替代方案（捷運出入口、人行天橋、人行地下道）以及車行替代方案（高架道路、車行地下道），應有優化之空間。本專案先以台北開放資料，列出目前台北市人行穿越、車行穿越、緊急機構（醫院、消防隊）及警察局的分布，並且確認在影響最小的範圍提供新路線的建議，並包含了每段時間的交管與關門時間（參考東京馬拉松的關門時間）。希望本報告為一起起頭，在未來沈伯洋入主市府後，可以尋求各部會進行更詳細的分析，並真的能改變台北馬拉松，讓這場活動成為台灣跑者和台北市民的驕傲。</p>
+
+    <h2>摘要（結論先行）</h2>
+    <p id="summary">現行路線的主要問題是<b>市民穿越問題</b>與<b>市民應援問題</b>；而「車輛繞行」與「緊急設施保留車道」這兩點是可以透過局處規劃克服的。為了修改成優化路線，我們<b>參考台北市現有的人行穿越設施</b>（人行地下道、天橋、捷運出入口），將路跑活動對市民的衝擊降到最低；並<b>透過關門時間的控制，將賽道一一開放還給市民</b>，降低封路對城市生活的影響。
+    <br><b>路跑時間調整</b>：原先為<b>6:30 起跑</b>；因新路線改動為<b>通過行人穿越點</b>，希望可<b>改晚到 8:00 起跑</b>，也讓市民更能參與活動。<b>台北緯度較東京、首爾低</b>，若起跑太晚（8:30／9:00）<b>溫度可能太高</b>，故維持 <b>8:00</b> 為較適中的起跑時間。
+    <br><b>緊急設施</b>：優化路線貼近 <b>5 個消防＋13 個醫院</b>（現行為 3＋9），封路時需<b>預留車道</b>，確保救災、救護不受影響。
+    <br><b>市民應援</b>：新路線<b>大部份位於台北市精華區</b>、<b>經過 15 個捷運站</b>且<b>途經多個商圈</b>，預期<b>更多市民可到現場應援</b>。
+    <br><b>預估完賽</b>：依時間點換算，全程約 <b>10 min/km</b>，預估完賽約 <b>15:00（約 7 小時）</b>。</p>
+
+    <h2>資料來源與方法</h2>
+    <p>本分析以<b>台北市開放資料</b>為主，並參考<b>台北馬拉松現行路線（GPX）</b>：</p>
+    <ul>
+      <li><b>人行穿越</b>：捷運出入口 391 處、人行天橋 96 座、人行地下道 53 座。</li>
+      <li><b>車行穿越</b>：高架道路與車行地下道出入口（含 41 處人工補充匝道）。</li>
+      <li><b>緊急機構</b>：醫院 38 家、消防隊 48 隊。</li>
+      <li><b>警察局</b>：113 處。</li>
+      <li><b>路線</b>：台北馬拉松現行路線（990 點），並依此計算缺口、緊急設施路段與關門時間。</li>
+    </ul>
+    <p>分析方法：以沿線 <b>100m／250m／500m</b> 半徑統計人行穿越設施覆蓋；以 <b>800m</b> 檢視車行缺口；以 <b>250m</b> 檢視緊急設施貼近程度；並參考<b>東京馬拉松</b>的關門時間架構。</p>
+
+    <h2>1. 現行路線分析</h2>
+    <p id="oldPros">現行路線為台北馬拉松多年沿用之<b>成熟路線</b>，行經台北市<b>主要幹道</b>，動線單純、交管與應援經驗成熟，跑者與工作團隊熟悉度高；惟前半段貼近市區，市民仍可沿線觀賽，具一定觀賽基礎。</p>
+    <p id="oldCons">現行路線的<b>最大缺點</b>是<b>未提供足夠的人行穿越空間</b>，導致對用路人的衝擊較大；因此需要<b>把活動時間提早</b>，但<b>時間提早後反而降低市民參與活動、加油的意願</b>。</p>
+    <p><b>現行路線量化</b>：全長約 <b>42.195km</b>；沿線<b>無人行替代穿越</b>的路線點約 <b>69%</b>；<b>車行缺口（&gt;800m）約 5 段／6km</b>；貼近緊急設施（&lt;250m）<b>3 個消防＋9 個醫院</b>。</p>
+    <figure>
+      <img src="image/current.png" alt="現行路線">
+      <figcaption>現行路線（圖：台北馬拉松現行路線）</figcaption>
+    </figure>
+
+    <h2>2. 優化路線設計</h2>
+    <h3 style="font-size:14px;margin:8px 0 2px">2.1 分段說明</h3>
+    <p id="newDesign">優化後路線分段為 <b>27km ＋ 6km ＋ 9km（共 42km）</b>：</p>
+    <p>前段 <b>27km 離市中心較近</b>，新路線<b>大部份位於台北市精華區</b>，經過 <b>15 個捷運站</b>，可讓較多市民參與應援；且這 15 個捷運站也能<b>透過出口</b>讓附近人行通過，透過<b>人行穿越動線</b>降低對居民及周邊商業的影響，前來觀賽的人潮也能帶動周邊商業消費。</p>
+    <p>中段 <b>6km</b> 沿<b>松江路、民權路、中山北路</b>，本路段僅中山北路對於人行穿越較不友善，市府或許可採<b>接泊車型式</b>，讓行人搭乘接泊經高速公路到達另一端（預想是<b>民族東路、新生北路口到民族西路、承德路口</b>）。目前<b>接泊車安排為殿後車</b>，在<b>開賽前就開至現場放置</b>，關門後將<b>未完賽的跑者接走</b>；這些車在關門前可<b>先活用為被路線分隔、且無人行替代方案的接泊車</b>。</p>
+    <p>後段 <b>9km</b> 與目前路線有高度重疊，從<b>北安路經堤頂大道，經南京東路</b>抵達台北田徑場。此段路線最大的壓力位於松山區，但人行可透過<b>南京三民站</b>的地下通道獲得舒緩。</p>
+    <h3 style="font-size:14px;margin:8px 0 2px">2.2 途經重要景點</h3>
+    <p>優化後的路線<b>途經台北重要景點</b>：仁愛林蔭大道、仁愛圓環、敦南林蔭大道、大安森林公園、中正紀念公園、台大、總統府、景福門、麗正門、龍山寺、西門町、承恩門、台北車站、國父紀念館、大巨蛋、行天宮、北美館、圓山飯店、忠烈祠、小巨蛋。</p>
+    <h3 style="font-size:14px;margin:8px 0 2px">2.3 後段調整</h3>
+    <p>由原先的<b>環東高架及河濱</b>，調整至<b>北安路、堤頂大道</b>，降低冬季東北風對跑者的影響，且<b>總爬升與升降次數都降低</b>，有助跑者打破個人成績。在<b>車行影響</b>方面，用路人可透過<b>建國、新生高架</b>做南北向替代道路，<b>市民大道</b>做為東西向替代。</p>
+    <figure>
+      <img src="image/future.png" alt="優化路線">
+      <figcaption>優化路線（圖：優化後路線建議）</figcaption>
+    </figure>
+
+    <h2>3. 實際活動衝擊分析</h2>
+    <p>以下以<b>現行路線 vs 優化路線</b>比較，說明對市民與用路人的實際衝擊。</p>
+    <h3 style="font-size:14px;margin:8px 0 2px">3.1 交通管制</h3>
+    <p id="impactTraffic">因為賽道需要在<b>第一位跑者抵達前 5 分鐘完全淨空</b>（約為 1.5km 的距離），故路口可<b>先行管制並視情況開放</b>；在路口開始封閉後，因安全考量須<b>完全封閉至最後一位跑者經過</b>（或到達關門時間）。
+    <br>以地圖上的關門點為例，<b>市區段封路時間約 60–230 分鐘</b>，但可透過<b>關門時間逐步開放</b>，實際對市民的<b>影響相對較小</b>；較大的衝擊集中於<b>前 5km（無人行穿越方案）</b>，該段封路約 <b>30–80 分鐘</b>，需進一步探討如何降低對大安區的衝擊。
+    <br>並在路口提供用路人<b>替代道路的指引</b>（目前路口僅放置交管訊息、無替代道路說明）；當天也希望提供資訊給<b>客運、貨運、外送業者共同配合</b>，降低跨越路線的配送服務。
+    <br><b>關門時間參考東京馬拉松</b>；國外的路跑路線也會<b>技術性地通過人行天橋、地下鐵車站等人行替代方案</b>。
+    <br><b>關門時間（賽道逐步開放，降低交管衝擊）</b>：依時間點換算，全程約 <b>10 min/km</b>，預估完賽約 <b>15:00（約 7 小時）</b>。
+    <ol>
+      <li><b>9:10</b>（約 5km）後開放<b>信義路四段、復興南路以東</b>。</li>
+      <li><b>10:35</b>（約 15km）後開放<b>愛國西路、重慶南路以東</b>。</li>
+      <li><b>11:20</b>（約 21km）後開放<b>忠孝東路、新生南路以西</b>。</li>
+      <li><b>12:40</b>（約 27km）後開放<b>忠孝東路、新生南路以東</b>。</li>
+      <li><b>13:30</b>（約 33km）後開放<b>北安路、中山北路以西</b>。</li>
+      <li><b>14:10</b>（約 38km）開放<b>堤頂大道、國一閘道口以北</b>。</li>
+      <li><b>15:00</b>（42km）全馬關門（終點台北田徑場）。</li>
+    </ol>
+    <figure>
+      <img src="image/closedoor.png" alt="關門時間交管示意">
+      <figcaption>關門時間與賽道開放示意（逐步還原道路，降低封路對城市生活的影響）</figcaption>
+    </figure></p>
+    <h3 style="font-size:14px;margin:8px 0 2px">3.2 車行衝擊</h3>
+    <p id="impactVehicle">本路線已<b>涵蓋台北市市區的高架道路及車行地下道</b>，以降低車行衝擊；以 <b>800m</b> 為門檻檢視，<b>現行路線車行缺口約 5 段／6km</b>，優化路線已大幅涵蓋市區替代道路。另外<b>賽前需將路線管制邏輯與業者同步</b>，在路線上避免、或直接提供司機繞行方案。</p>
+    <h3 style="font-size:14px;margin:8px 0 2px">3.3 人行衝擊</h3>
+    <p id="impactPed">優化路線<b>大幅提高了沿線人行穿越設施的覆蓋</b>。以台北市現有的人行穿越設施（人行地下道、天橋、捷運出入口）計算：</p>
+    <table>
+      <tr><th>路線</th><th>100m 內設施</th><th>250m 內設施</th><th>500m 內設施</th><th>無替代穿越的路線點</th></tr>
+      <tr><td>現行路線</td><td>35 座</td><td>78 座</td><td>175 座</td><td>約 69%</td></tr>
+      <tr><td>優化路線</td><td>140 座</td><td>161 座</td><td>200 座</td><td>約 39%</td></tr>
+    </table>
+    <p>透過這些設施，市民可在封路時就近穿越，大幅降低對居民與周邊商業的影響。
+    <figure>
+      <img src="image/pedestrian.png" alt="捷運站出入口人行替代道路">
+      <figcaption>捷運站出入口做為人行替代道路示意</figcaption>
+    </figure></p>
+    <h3 style="font-size:14px;margin:8px 0 2px">3.4 緊急設施</h3>
+    <p id="impactEmergency">對緊急設施的衝擊（距路線 <250m，封路時需<b>預留車道</b>）：</p>
+    <table>
+      <tr><th>路線</th><th>消防（距離）</th><th>醫院（距離）</th></tr>
+      <tr><td>現行路線</td><td>3 個：華山分隊 24m、城中分隊 27m、延平分隊 245m</td><td>9 個：馬偕紀念/兒童 18m、台大兒童 26m、宏恩 37m、國泰 95m、台大醫院 107m、博仁 170m、中山 172m、培靈 199m</td></tr>
+      <tr><td>優化路線</td><td>5 個：忠孝分隊 1m、城中分隊 21m、松江分隊 107m、金華分隊 185m、華山分隊 217m</td><td>13 個：中心診所 21m、仁濟醫院 25m、國泰 61m、中山 81m、協和婦女 103m、泰安 120m、台大兒童 151m、台大醫院 155m、博仁 182m、秀傳 195m、宏恩 224m、培靈 225m、台北長庚 243m</td></tr>
+    </table>
+    <p>這些貼近的消防／醫院需在封路時<b>預留車道</b>，確保救災、救護不受影響。
+    <br><b>緊急設施路段</b>：現行路線依資料計算約有 <b>7 段</b>貼近緊急設施的路段（&lt;250m），封路時需逐段確認預留車道。
+    <br>（<b>醫院緊急道路範圍</b>：其中<b>台大醫院、台大兒童醫院</b>為路線影響最大的兩個醫院，但原本的路線就是經過信義、愛國東、中山南，故建議未來需要與當地警察局就每個路口的車道調配與管制做進一步的討論。）</p>
+
+    <h2>4. 決策建議</h2>
+    <p id="conclusion">結論：<b>新的路線提供了足夠的人行替代道路</b>，降低對市民的衝擊；且因為<b>靠近捷運站</b>，可以<b>吸引加油的民眾前往</b>，提升市民參與。新路線<b>大部份位於台北市精華區</b>且<b>經過許多捷運站</b>，預期<b>更多市民可到現場應援</b>。有望透過更多市民參與，讓台北馬拉松<b>看齊</b>首爾馬拉松、東京馬拉松、上海馬拉松，成為台灣的驕傲。</p>
+    <p><b>配套措施與後續建議</b>：
+    <br>・<b>試跑與路網分析</b>：賽前試跑，並與交通局進行路網模擬，確認替代道路容量。
+    <br>・<b>配送協調</b>：賽前將管制邏輯與客運、貨運、外送業者同步，提供繞行與時段指引。
+    <br>・<b>逐路口協商</b>：與當地警察局就每個路口的車道調配、管制與替代道路指引討論（含緊急設施預留車道）。
+    <br>・<b>關門時間逐步開放</b>：依關門時間逐步還原賽道，降低封路對城市生活的影響。
+    <br>・<b>各部會分工</b>：未來可尋求交通、消防、警察、觀光等部會進行更詳細的分析與實作。</p>
+
+    <h2>5. 國際經驗與建議</h2>
+    <p><b>國際經驗參考</b>：頂級馬拉松的核心在<b>賽道本身</b>——跑者追求破 PB 的機會與城市風景；因此應<b>優化市區路線比例</b>（減少河濱路段，打造「高速城市賽道」）、<b>減少直角轉彎與起伏</b>。同時，從「交通管制」轉向<b>「城市嘉年華」</b>，透過<b>沿線商圈與社群聯動</b>、<b>改變公關敘事</b>（提前數月全城行銷，定調為「屬於全台北市民的驕傲」），降低交管帶來的民怨。</p>
+
+    <h2>6. 風險與待解問題</h2>
+    <p><b>待解問題</b>：
+    <br>・<b>前 5km 無人行穿越方案</b>：封路約 30–80 分鐘，需進一步探討如何降低對大安區的衝擊。
+    <br>・<b>中段 6km 中山北路</b>：接泊車（殿後車活用）是否可行、班次與容量待確認。
+    <br>・<b>緊急設施預留車道</b>：5 個消防＋13 個醫院貼近路段，逐路口車道調配需與警察局協商。
+    <br>・<b>市民應援承載</b>：精華區人潮多，需評估沿線商圈、觀賽動線與安全。</p>
+
+    <h2>7. 附錄與參考資料</h2>
+    <p><b>資料來源（台北市政府開放資料）</b>：</p>
+    <ul>
+      <li>捷運出入口／地下街分布。</li>
+      <li>人行地下道、人行天橋分布。</li>
+      <li>高架道路、車行地下道出入口。</li>
+      <li>醫院、消防隊分布。</li>
+      <li>警察局分布。</li>
+      <li>台北馬拉松現行路線。</li>
+    </ul>
+    <p>以上資料均由<b>台北市政府開放資料平台</b>下載；座標系統為 <b>TWD97（Big5 編碼）</b>，已統一轉為 <b>WGS84（經緯度）</b>供地圖呈現。分析方法與計算邏輯詳見「資料來源與方法」章節。</p>
+  </div>
+
+  <div class="float-map" id="floatMap">
+    <div class="map-header">
+      <span>互動地圖：新舊版路線</span>
+      <button onclick="toggleMap(event)">收合</button>
+    </div>
+    <div class="map-body">
+      <div id="map"></div>
+      <div class="controls" id="controls">
+      <div class="ctrl-header" onclick="toggleControls(event)">
+        <span>圖層控制</span>
+        <button onclick="toggleControls(event)">收合</button>
+      </div>
+      <div class="ctrl-body">
+      <div class="grp">路線切換</div>
+      <button onclick="setRoute('old')">現行路線</button>
+      <button onclick="setRoute('new')">優化路線</button>
+      <div class="legend">
+        <div><span class="dot" style="background:#444"></span>現行路線</div>
+        <div><span class="dot" style="background:#c2185b"></span>優化路線</div>
+        <div><span class="dot" style="background:#ff8c00"></span>車行替代路線</div>
+        <div><span class="dot" style="background:#00a65a"></span>人行替代缺口(>250m)</div>
+        <div><span class="dot" style="background:#e53935"></span>緊急設施路段(<250m)</div>
+        <div><span class="dot" style="background:#ffd600"></span>時間點標記</div>
+      </div>
+      <div class="grp">圖層</div>
+      <button onclick="toggleLayer('cross')">人行穿越</button>
+      <button onclick="toggleLayer('veh')">車行穿越</button>
+      <button onclick="toggleLayer('emerg')">緊急機構</button>
+      <button onclick="toggleLayer('police')">警察局</button>
+      <button onclick="toggleLayer('gap')">人行替代缺口</button>
+      <button onclick="toggleLayer('emg')">緊急設施路段</button>
+      <button onclick="toggleDetour()">車行替代路線</button>
+
+      </div>
+    </div>
+  </div>
+</div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script src="data.js?v=20251119"></script>
+<script>
+  const _EMPTY = { features: [] };
+  const W = typeof window !== 'undefined' ? window : {};
+  const UG = W.UNDERGROUND_GEOJSON || _EMPTY, MRT = W.MRT_EXITS_GEOJSON || _EMPTY;
+  const FIRE = W.FIRE_GEOJSON || _EMPTY, POLICE = W.POLICE_GEOJSON || _EMPTY, HOSP = W.HOSPITAL_GEOJSON || _EMPTY;
+  const ROUTE = W.MARATHON_ROUTE_GEOJSON || _EMPTY, FB = W.FOOTBRIDGE_GEOJSON || _EMPTY, EX = W.EXPRESSWAYS_RAMPS_GEOJSON || _EMPTY;
+  const GAPS = W.ROUTE_GAPS_PED_GEOJSON || _EMPTY, EMG = W.ROUTE_EMERGENCY_GEOJSON || _EMPTY;
+  const DT_OLD = W.DETOUR_CURRENT_GEOJSON || _EMPTY, DT_NEW = W.DETOUR_FUTURE_GEOJSON || _EMPTY;
+  const FUTURE = W.FUTURE_ROUTE_GEOJSON || _EMPTY, TP = W.TIME_POINTS_GEOJSON || _EMPTY;
+
+  const map = L.map('map').setView([25.05, 121.56], 13);
+  // 底圖（免 key）：Esri Light 預設，可切換
+  const tileProviders = [
+    { name:'Esri-Light', url:'https://services.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Light_Gray_Base/MapServer/tile/{z}/{y}/{x}', subdomains:'', attribution:'&copy; Esri', maxZoom:16, referrerPolicy:'no-referrer-when-downgrade' },
+    { name:'Esri-Street', url:'https://services.arcgisonline.com/ArcGIS/rest/services/World_Street_Map/MapServer/tile/{z}/{y}/{x}', subdomains:'', attribution:'&copy; Esri', maxZoom:18, referrerPolicy:'no-referrer-when-downgrade' },
+    { name:'OSM', url:'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', subdomains:'abc', attribution:'&copy; OpenStreetMap contributors', maxZoom:19, referrerPolicy:'no-referrer-when-downgrade' }
+  ];
+  let currentTile = null;
+  function loadBasemap(idx){
+    if(currentTile) map.removeLayer(currentTile);
+    const p = tileProviders[idx];
+    map.setMaxZoom(p.maxZoom);
+    currentTile = L.tileLayer(p.url, { subdomains:p.subdomains, attribution:p.attribution, maxZoom:p.maxZoom, referrerPolicy:p.referrerPolicy });
+    currentTile.on('tileerror', () => { if(idx < tileProviders.length-1) loadBasemap(idx+1); });
+    currentTile.addTo(map);
+  }
+  loadBasemap(0);
+
+  function toLatLng(c){ return [c[1], c[0]]; }
+
+  // 現行路線
+  const oldRouteLayer = L.layerGroup();
+  ROUTE.features.forEach(f => {
+    const c = f.geometry.coordinates.map(toLatLng);
+    const line = L.polyline(c, { color:'#444444', weight:4, opacity:0.8 });
+    line.bindPopup(`<b>現行路線</b><br>共 ${c.length} 點`);
+    oldRouteLayer.addLayer(line);
+  });
+  // 優化路線（含 km + START/FINISH + 時間點）
+  function haversine(a,b){ const R=6371000; const p1=a[0]*Math.PI/180,p2=b[0]*Math.PI/180; const dp=(b[0]-a[0])*Math.PI/180,dl=(b[1]-a[1])*Math.PI/180; const h=Math.sin(dp/2)**2+Math.cos(p1)*Math.cos(p2)*Math.sin(dl/2)**2; return 2*R*Math.asin(Math.sqrt(h)); }
+  const newRouteLayer = L.layerGroup();
+  FUTURE.features.forEach(f => {
+    const c = f.geometry.coordinates.map(toLatLng);
+    const line = L.polyline(c, { color:'#c2185b', weight:5, opacity:0.9 });
+    line.bindPopup(`<b>優化路線</b><br>共 ${c.length} 點`);
+    newRouteLayer.addLayer(line);
+    let acc=0, nextKm=1;
+    for(let i=1;i<c.length;i++){
+      const a=c[i-1], b=c[i]; const d=haversine(a,b);
+      while(acc+d>=nextKm*1000){
+        const t=(nextKm*1000-acc)/d;
+        const pt=[a[0]+(b[0]-a[0])*t, a[1]+(b[1]-a[1])*t];
+        newRouteLayer.addLayer(L.marker(pt, { icon:L.divIcon({ className:'route-km', html:String(nextKm), iconSize:[26,20], iconAnchor:[13,10] }) }).bindPopup(`<b>${nextKm} km</b>`));
+        nextKm++;
+      }
+      acc+=d;
+    }
+    newRouteLayer.addLayer(L.marker(c[0], { icon:L.divIcon({ className:'route-sf', html:'<span style="background:#2e7d32;color:#fff;font-weight:700;padding:4px 6px;border-radius:6px;border:2px solid #fff">START</span>', iconSize:[30,30], iconAnchor:[15,15] }) }).bindPopup('<b>起點 START</b>'));
+    newRouteLayer.addLayer(L.marker(c[c.length-1], { icon:L.divIcon({ className:'route-sf', html:'<span style="background:#c62828;color:#fff;font-weight:700;padding:4px 6px;border-radius:6px;border:2px solid #fff">FINISH</span>', iconSize:[30,30], iconAnchor:[15,15] }) }).bindPopup('<b>終點 FINISH</b>'));
+  });
+  // 時間點（僅時間）
+  const timeLayer = L.layerGroup(TP.features.map(f => {
+    const p = f.properties;
+    const m = L.marker(toLatLng(f.geometry.coordinates), { icon: L.divIcon({ className:'time-label', html:`<span style="background:#ff9800;color:#fff;font-weight:700;padding:3px 6px;border-radius:6px;border:2px solid #fff">${p.time}</span>`, iconSize:[60,22], iconAnchor:[30,11] }) });
+    m.bindPopup(`<b>${p.label}</b><br>時間 ${p.time}`);
+    return m;
+  }));
+  // 車行替代路線（橘色箭頭）
+  function bearingDeg(a,b){ const dLat=b[0]-a[0], dLon=(b[1]-a[1])*Math.cos(a[0]*Math.PI/180); return (Math.atan2(dLon,dLat)*180/Math.PI+360)%360; }
+  function offset(latlng, b, meters){ const br=b*Math.PI/180; const dLat=meters*Math.cos(br)/111320; const dLon=meters*Math.sin(br)/(111320*Math.cos(latlng[0]*Math.PI/180)); return [latlng[0]+dLat, latlng[1]+dLon]; }
+  function buildDetour(ds){
+    const layer = L.layerGroup();
+    ds.features.forEach(f => {
+      const latlngs = f.geometry.coordinates.map(toLatLng);
+      if(latlngs.length<2) return;
+      const line = L.polyline(latlngs, { color:'#ff8c00', weight:4, dashArray:'6 4', opacity:0.9 });
+      line.bindPopup(`<b>${f.properties.label||'車行替代'}</b>`);
+      const e=latlngs[latlngs.length-1], p=latlngs[latlngs.length-2];
+      const brg=bearingDeg(p,e), size=0.00012;
+      const arrow=L.polyline([offset(e,brg+150,size),e,offset(e,brg-150,size)], { color:'#ff8c00', weight:5, opacity:0.9 });
+      arrow.bindPopup(`<b>${f.properties.label||'車行替代'}</b>`);
+      layer.addLayer(L.layerGroup([line,arrow]));
+    });
+    return layer;
+  }
+  const oldDetourLayer = buildDetour(DT_OLD); // 現行路線替代
+  const newDetourLayer = buildDetour(DT_NEW); // 優化路線替代
+
+  // 支援圖層
+  const pedFeats = UG.features.filter(x=>x.properties.kind==='人行地下道');
+  const vehFeats = UG.features.filter(x=>x.properties.kind==='車行地下道');
+  const crossLayer = L.layerGroup([
+    ...pedFeats.map(f=>L.circleMarker(toLatLng(f.geometry.coordinates), { radius:6, color:'#fff', weight:2, fillColor:'#1f7bd4', fillOpacity:0.9 }).bindPopup(`<b>人行地下道</b><br>${f.properties.name}`)),
+    ...FB.features.map(f=>L.circleMarker(toLatLng(f.geometry.coordinates), { radius:6, color:'#fff', weight:2, fillColor:'#00a65a', fillOpacity:0.9 }).bindPopup(`<b>人行陸橋</b><br>${f.properties.name}`)),
+    ...MRT.features.map(f=>L.circleMarker(toLatLng(f.geometry.coordinates), { radius:5, color:'#fff', weight:2, fillColor:'#e0a800', fillOpacity:0.9 }).bindPopup(`<b>捷運出入口</b><br>${f.properties.name}`))
+  ]);
+  const vehCrossLayer = L.layerGroup([
+    ...vehFeats.map(f=>L.circleMarker(toLatLng(f.geometry.coordinates), { radius:6, color:'#fff', weight:2, fillColor:'#c33', fillOpacity:0.9 }).bindPopup(`<b>車行地下道</b><br>${f.properties.name}`)),
+    ...EX.features.map(f=>L.circleMarker(toLatLng(f.geometry.coordinates), { radius:6, color:'#fff', weight:2, fillColor:'#8c5a00', fillOpacity:0.9 }).bindPopup(`<b>高架出入口</b><br>${f.properties.location}`))
+  ]);
+  const emergLayer = L.layerGroup([
+    ...FIRE.features.map(f=>L.circleMarker(toLatLng(f.geometry.coordinates), { radius:6, color:'#fff', weight:2, fillColor:'#ff7043', fillOpacity:0.9 }).bindPopup(`<b>消防隊</b><br>${f.properties.name}`)),
+    ...HOSP.features.map(f=>L.circleMarker(toLatLng(f.geometry.coordinates), { radius:6, color:'#fff', weight:2, fillColor:'#d81b60', fillOpacity:0.9 }).bindPopup(`<b>醫院</b><br>${f.properties.name}`))
+  ]);
+  const policeLayer = L.layerGroup(POLICE.features.map(f=>L.circleMarker(toLatLng(f.geometry.coordinates), { radius:6, color:'#fff', weight:2, fillColor:'#3949ab', fillOpacity:0.9 }).bindPopup(`<b>警察局</b><br>${f.properties.name}`)));
+  const gapLayer = L.layerGroup(GAPS.features.map(f=>L.polyline(f.geometry.coordinates.map(toLatLng), { color:'#00a65a', weight:8, opacity:0.85 }).bindPopup(`<b>人行替代缺口</b><br>長度約 ${Math.round(f.properties.len)} m`)));
+  const emgLayer = L.layerGroup(EMG.features.map(f=>L.polyline(f.geometry.coordinates.map(toLatLng), { color:'#e53935', weight:8, opacity:0.85 }).bindPopup(`<b>緊急設施路段</b><br>長度約 ${Math.round(f.properties.len)} m`)));
+
+  // 路線切換：預設顯示「優化路線」；切換時只顯示當下路線相關圖層
+  let routeMode = 'new', detourShown = true;
+  function setRoute(mode){
+    routeMode = mode;
+    [oldRouteLayer,newRouteLayer,gapLayer,emgLayer,timeLayer,oldDetourLayer,newDetourLayer].forEach(l => map.removeLayer(l));
+    if(mode==='old'){ map.addLayer(oldRouteLayer); map.addLayer(gapLayer); map.addLayer(emgLayer); if(detourShown) map.addLayer(oldDetourLayer); }
+    else if(mode==='new'){ map.addLayer(newRouteLayer); map.addLayer(timeLayer); if(detourShown) map.addLayer(newDetourLayer); }
+  }
+  setRoute('new');
+  function toggleDetour(){
+    detourShown = !detourShown;
+    const active = routeMode==='old' ? oldDetourLayer : newDetourLayer;
+    if(detourShown) map.addLayer(active); else map.removeLayer(active);
+  }
+
+  // 支援圖層（共享設施，預設顯示）
+  crossLayer.addTo(map); vehCrossLayer.addTo(map); emergLayer.addTo(map); policeLayer.addTo(map);
+
+  const layers = { cross:crossLayer, veh:vehCrossLayer, emerg:emergLayer, police:policeLayer, gap:gapLayer, emg:emgLayer };
+  const shown = { cross:true, veh:true, emerg:true, police:true, gap:true, emg:true };
+  function toggleLayer(k){ shown[k]=!shown[k]; if(shown[k]) layers[k].addTo(map); else map.removeLayer(layers[k]); }
+
+  // 收合/展開浮動地圖
+  function toggleMap(e){
+    if(e) e.stopPropagation();
+    const el = document.getElementById('floatMap');
+    const btn = el.querySelector('button');
+    el.classList.toggle('collapsed');
+    btn.textContent = el.classList.contains('collapsed') ? '展開' : '收合';
+    setTimeout(() => map.invalidateSize(), 250);
+  }
+
+  // 收合/展開圖層控制
+  function toggleControls(e){
+    if(e) e.stopPropagation();
+    const el = document.getElementById('controls');
+    const btn = el.querySelector('button');
+    el.classList.toggle('collapsed');
+    btn.textContent = el.classList.contains('collapsed') ? '展開' : '收合';
+  }
+  // 手機上預設收合圖層控制，避免遮擋地圖
+  if(window.innerWidth < 700){
+    const c = document.getElementById('controls');
+    if(c){ c.classList.add('collapsed'); const b=c.querySelector('button'); if(b) b.textContent='展開'; }
+  }
+  // 預設收合地圖視窗
+  (function(){
+    const el = document.getElementById('floatMap');
+    if(el){ el.classList.add('collapsed'); const b=el.querySelector('button'); if(b) b.textContent='展開'; }
+    setTimeout(() => map.invalidateSize(), 250);
+  })();
+</script>
+</body>
+</html>

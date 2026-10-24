@@ -1,0 +1,710 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52082093077685,
+     25.047266264778333
+    ]
+   },
+   "properties": {
+    "name": "華山分隊",
+    "district": "100",
+    "address": "臺北市中正區北平東路1號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52706896606395,
+     25.04367813661123
+    ]
+   },
+   "properties": {
+    "name": "忠孝分隊",
+    "district": "100",
+    "address": "臺北市中正區忠孝東路二段8號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51245159242181,
+     25.024607741460645
+    ]
+   },
+   "properties": {
+    "name": "泉州分隊",
+    "district": "100",
+    "address": "臺北市中正區泉州街40號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51343631610861,
+     25.046939875294626
+    ]
+   },
+   "properties": {
+    "name": "城中分隊",
+    "district": "100",
+    "address": "臺北市中正區忠孝西路1段86號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.49549502664831,
+     25.02880914078569
+    ]
+   },
+   "properties": {
+    "name": "雙園分隊",
+    "district": "108",
+    "address": "臺北市萬華區西藏路213-1號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.49932971324635,
+     25.038582790267665
+    ]
+   },
+   "properties": {
+    "name": "龍山分隊",
+    "district": "108",
+    "address": "臺北市萬華區桂林路137號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.56644894522663,
+     25.002067290034383
+    ]
+   },
+   "properties": {
+    "name": "萬芳分隊",
+    "district": "116",
+    "address": "臺北市文山區萬美街一段52號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.54118361126517,
+     24.99230264261751
+    ]
+   },
+   "properties": {
+    "name": "景美分隊",
+    "district": "116",
+    "address": "臺北市文山區景文街30號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.56340656108573,
+     24.98880752912122
+    ]
+   },
+   "properties": {
+    "name": "木柵分隊",
+    "district": "116",
+    "address": "臺北市文山區木柵路二段200號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5548972381381,
+     24.979901656898083
+    ]
+   },
+   "properties": {
+    "name": "寶橋分隊",
+    "district": "116",
+    "address": "臺北市文山區璋新街2號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.54855824043146,
+     25.000030792006438
+    ]
+   },
+   "properties": {
+    "name": "興隆分隊",
+    "district": "116",
+    "address": "臺北市文山區興隆二段86號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52775447525082,
+     25.032498929031988
+    ]
+   },
+   "properties": {
+    "name": "金華分隊",
+    "district": "106",
+    "address": "臺北市大安區愛國東路79巷13號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.55226174973211,
+     25.03290642619096
+    ]
+   },
+   "properties": {
+    "name": "安和分隊",
+    "district": "106",
+    "address": "臺北市大安區安和路二段2號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.54329127411194,
+     25.030059531459656
+    ]
+   },
+   "properties": {
+    "name": "復興分隊",
+    "district": "106",
+    "address": "臺北市大安區復興南路二段92號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.60726581341004,
+     25.054666010010212
+    ]
+   },
+   "properties": {
+    "name": "南港分隊",
+    "district": "115",
+    "address": "臺北市南港區興中路6號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.61528539820776,
+     25.045072366701625
+    ]
+   },
+   "properties": {
+    "name": "舊莊分隊",
+    "district": "115",
+    "address": "臺北市南港區研究院路2段86號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5866976949318,
+     25.047797111528343
+    ]
+   },
+   "properties": {
+    "name": "成德分隊",
+    "district": "115",
+    "address": "臺北市南港區東新街63巷11號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5687474688575,
+     25.04080699164758
+    ]
+   },
+   "properties": {
+    "name": "信義分隊",
+    "district": "110",
+    "address": "臺北市信義區忠孝東路5段32號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.56918546952662,
+     25.045526980616035
+    ]
+   },
+   "properties": {
+    "name": "永吉分隊",
+    "district": "110",
+    "address": "臺北市信義區永吉路48號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5652186634204,
+     25.029797201076008
+    ]
+   },
+   "properties": {
+    "name": "莊敬分隊",
+    "district": "110",
+    "address": "臺北市信義區松智路40號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.55669581555068,
+     25.080007218325512
+    ]
+   },
+   "properties": {
+    "name": "大直分隊",
+    "district": "104",
+    "address": "臺北市中山區樂群二路143號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53393343882746,
+     25.047508613419588
+    ]
+   },
+   "properties": {
+    "name": "松江分隊",
+    "district": "104",
+    "address": "臺北市中山區建國北路二段39號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53588497656179,
+     25.067832772274794
+    ]
+   },
+   "properties": {
+    "name": "建國分隊",
+    "district": "104",
+    "address": "臺北市中山區民族東路282號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.54941588744555,
+     25.072495947944994
+    ]
+   },
+   "properties": {
+    "name": "搜救犬訓練基地",
+    "district": "104",
+    "address": "臺北市中山區濱江街351號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52917745469207,
+     25.06851587899106
+    ]
+   },
+   "properties": {
+    "name": "圓山分隊",
+    "district": "104",
+    "address": "臺北市中山區民族東路41號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.56296569614095,
+     25.048538962664608
+    ]
+   },
+   "properties": {
+    "name": "八德分隊",
+    "district": "105",
+    "address": "臺北市松山區八德路四段162號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.54583968204864,
+     25.04837717711821
+    ]
+   },
+   "properties": {
+    "name": "中崙分隊",
+    "district": "105",
+    "address": "臺北市松山區長安東路二段229號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.61291926519097,
+     25.06747153958336
+    ]
+   },
+   "properties": {
+    "name": "東湖分隊",
+    "district": "114",
+    "address": "臺北市內湖區五分街8號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.60165030120429,
+     25.08388534250539
+    ]
+   },
+   "properties": {
+    "name": "大湖分隊",
+    "district": "114",
+    "address": "臺北市內湖區成功路五段5號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.59036946828954,
+     25.069512965562982
+    ]
+   },
+   "properties": {
+    "name": "內湖分隊",
+    "district": "114",
+    "address": "臺北市內湖區成功路二段378號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5777092922259,
+     25.066890481809768
+    ]
+   },
+   "properties": {
+    "name": "民權分隊",
+    "district": "114",
+    "address": "臺北市內湖區民權東路六段9號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51824595997624,
+     25.05475052207543
+    ]
+   },
+   "properties": {
+    "name": "建成分隊",
+    "district": "103",
+    "address": "臺北市大同區承德路二段35號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51136879590909,
+     25.050233231821917
+    ]
+   },
+   "properties": {
+    "name": "延平分隊",
+    "district": "103",
+    "address": "臺北市大同區鄭州路109號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51373474718929,
+     25.0614740563695
+    ]
+   },
+   "properties": {
+    "name": "大同分隊",
+    "district": "103",
+    "address": "臺北市大同區重慶北路二段223號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.54567357675053,
+     25.133854966557763
+    ]
+   },
+   "properties": {
+    "name": "山仔后分隊",
+    "district": "111",
+    "address": "臺北市士林區仰德大道四段161號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53290239391767,
+     25.12526167433074
+    ]
+   },
+   "properties": {
+    "name": "天母分隊",
+    "district": "111",
+    "address": "臺北市士林區中山北路7段194號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.49668880158231,
+     25.09635330836243
+    ]
+   },
+   "properties": {
+    "name": "福安分隊",
+    "district": "111",
+    "address": "臺北市士林區延平北路7段42-7號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51148862482353,
+     25.079095565164728
+    ]
+   },
+   "properties": {
+    "name": "社子分隊",
+    "district": "111",
+    "address": "臺北市士林區延平北路五段2-1號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52765358545496,
+     25.089935812318586
+    ]
+   },
+   "properties": {
+    "name": "劍潭分隊",
+    "district": "111",
+    "address": "臺北市士林區中山北路五段376號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.54467990360197,
+     25.097620313805184
+    ]
+   },
+   "properties": {
+    "name": "雙溪分隊",
+    "district": "111",
+    "address": "臺北市士林區至善路二段41號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51804603371392,
+     25.087333481692383
+    ]
+   },
+   "properties": {
+    "name": "後港分隊",
+    "district": "111",
+    "address": "臺北市士林區福港街153號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.54664504042107,
+     25.151573241582625
+    ]
+   },
+   "properties": {
+    "name": "陽明山分隊",
+    "district": "112",
+    "address": "臺北市北投區勝利街1-2號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5024688674403,
+     25.13515432185749
+    ]
+   },
+   "properties": {
+    "name": "光明分隊",
+    "district": "112",
+    "address": "臺北市北投區光明路155號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.46667022495429,
+     25.123056461490922
+    ]
+   },
+   "properties": {
+    "name": "關渡分隊",
+    "district": "112",
+    "address": "臺北市北投區知行路345號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51690573634772,
+     25.11794245008417
+    ]
+   },
+   "properties": {
+    "name": "石牌分隊",
+    "district": "112",
+    "address": "臺北市北投區石牌路二段101號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.49289945158236,
+     25.145279763402204
+    ]
+   },
+   "properties": {
+    "name": "秀山分隊",
+    "district": "112",
+    "address": "臺北市北投區秀山路50號"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5133384442939,
+     25.101921089464067
+    ]
+   },
+   "properties": {
+    "name": "福國分隊",
+    "district": "112",
+    "address": "臺北市北投區建民里福國路172號"
+   }
+  }
+ ]
+}

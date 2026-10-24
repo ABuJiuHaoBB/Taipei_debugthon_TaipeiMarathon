@@ -1,0 +1,141 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.561537,
+     25.037574
+    ]
+   },
+   "properties": {
+    "km": 0,
+    "label": "START",
+    "time": "8:00",
+    "lat": 25.037574,
+    "lon": 121.561537
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5428607686978,
+     25.033391860029038
+    ]
+   },
+   "properties": {
+    "km": 5,
+    "label": "5km",
+    "time": "9:10",
+    "lat": 25.033391860029038,
+    "lon": 121.5428607686978
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5130625692834,
+     25.03539879416075
+    ]
+   },
+   "properties": {
+    "km": 15,
+    "label": "15km",
+    "time": "10:35",
+    "lat": 25.03539879416075,
+    "lon": 121.5130625692834
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53315962207955,
+     25.042288572937114
+    ]
+   },
+   "properties": {
+    "km": 21,
+    "label": "21km",
+    "time": "11:20",
+    "lat": 25.042288572937114,
+    "lon": 121.53315962207955
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53281468184369,
+     25.04439971072785
+    ]
+   },
+   "properties": {
+    "km": 27,
+    "label": "27km",
+    "time": "12:40",
+    "lat": 25.04439971072785,
+    "lon": 121.53281468184369
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53030505797075,
+     25.077983286490653
+    ]
+   },
+   "properties": {
+    "km": 33,
+    "label": "33km",
+    "time": "13:30",
+    "lat": 25.077983286490653,
+    "lon": 121.53030505797075
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.57307404267122,
+     25.06921929934342
+    ]
+   },
+   "properties": {
+    "km": 38,
+    "label": "38km",
+    "time": "14:10",
+    "lat": 25.06921929934342,
+    "lon": 121.57307404267122
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.55534226506828,
+     25.051573221155245
+    ]
+   },
+   "properties": {
+    "km": 42,
+    "label": "42km",
+    "time": "15:00",
+    "lat": 25.051573221155245,
+    "lon": 121.55534226506828
+   }
+  }
+ ]
+}

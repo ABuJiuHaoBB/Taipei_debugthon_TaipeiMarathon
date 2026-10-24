@@ -1,0 +1,113 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5306213,
+     25.0078018
+    ]
+   },
+   "properties": {
+    "name": "銜接福和橋",
+    "ramp": "上匝道(往西)",
+    "query": "福和橋",
+    "display": "福和橋, 汀州路三段230巷, 台北國際藝術村, 水源里, 中正區, 公館, 臺北市, 100048, 臺灣",
+    "note": "",
+    "source": "基隆高架道路.pdf (OSM 地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.4969503,
+     25.0163362
+    ]
+   },
+   "properties": {
+    "name": "銜接水源快速道路",
+    "ramp": "上/下匝道",
+    "query": "水源快速道路 臺北市",
+    "display": "水源快速道路, 興德里, 萬華區, 東園, 臺北市, 108245, 臺灣",
+    "note": "",
+    "source": "基隆高架道路.pdf (OSM 地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5401364,
+     25.013444
+    ]
+   },
+   "properties": {
+    "name": "基隆路(臺科大校門前)",
+    "ramp": "上匝道",
+    "query": "臺灣科技大學",
+    "display": "臺灣科技大學, 基隆路四段, 學府里, 大安區, 公館, 臺北市, 10607, 臺灣",
+    "note": "",
+    "source": "基隆高架道路.pdf (OSM 地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5447412,
+     25.0173509
+    ]
+   },
+   "properties": {
+    "name": "基隆路與長興街口",
+    "ramp": "上匝道",
+    "query": "基隆路三段 長興街",
+    "display": "基隆長興街口, 基隆路三段, 學府里, 大安區, 公館, 臺北市, 106037, 臺灣",
+    "note": "",
+    "source": "基隆高架道路.pdf (OSM 地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5459511,
+     25.0185086
+    ]
+   },
+   "properties": {
+    "name": "基隆路與敦化南路口",
+    "ramp": "上/下匝道",
+    "query": "基隆路 敦化南路",
+    "display": "敦化南路出口, 基隆路高架道路, 學府里, 大安區, 公館, 臺北市, 106335, 臺灣",
+    "note": "",
+    "source": "基隆高架道路.pdf (OSM 地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5519036,
+     25.0209875
+    ]
+   },
+   "properties": {
+    "name": "基隆路與樂業街口",
+    "ramp": "上/下匝道",
+    "query": "樂業街",
+    "display": "樂業街, 芳和里, 大安區, 六張犁, 臺北市, 106224, 臺灣",
+    "note": "近似(樂業街街名)",
+    "source": "基隆高架道路.pdf (OSM 地理編碼)"
+   }
+  }
+ ]
+}

@@ -1,0 +1,3320 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5520427,
+     25.0636308
+    ]
+   },
+   "properties": {
+    "name": "松山機場站出口1",
+    "station": "松山機場",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5509869,
+     25.0635351
+    ]
+   },
+   "properties": {
+    "name": "松山機場站出口2",
+    "station": "松山機場",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5518415,
+     25.0631707
+    ]
+   },
+   "properties": {
+    "name": "松山機場站出口3",
+    "station": "松山機場",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5439794,
+     25.06082643
+    ]
+   },
+   "properties": {
+    "name": "中山國中站出口",
+    "station": "中山",
+    "exit_no": "0"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.543143,
+     25.041797
+    ]
+   },
+   "properties": {
+    "name": "忠孝復興站出口1",
+    "station": "忠孝復興",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.543517,
+     25.041206
+    ]
+   },
+   "properties": {
+    "name": "忠孝復興站出口2",
+    "station": "忠孝復興",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.544806,
+     25.041467
+    ]
+   },
+   "properties": {
+    "name": "忠孝復興站出口3",
+    "station": "忠孝復興",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.54506,
+     25.041772
+    ]
+   },
+   "properties": {
+    "name": "忠孝復興站出口4",
+    "station": "忠孝復興",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.543985,
+     25.04202
+    ]
+   },
+   "properties": {
+    "name": "忠孝復興站出口5",
+    "station": "忠孝復興",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5420001,
+     25.03360186
+    ]
+   },
+   "properties": {
+    "name": "大安站出口1",
+    "station": "大安",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5415899,
+     25.03364917
+    ]
+   },
+   "properties": {
+    "name": "大安站出口2",
+    "station": "大安",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.54233,
+     25.033241
+    ]
+   },
+   "properties": {
+    "name": "大安站出口3",
+    "station": "大安",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5439764,
+     25.0331244
+    ]
+   },
+   "properties": {
+    "name": "大安站出口4",
+    "station": "大安",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.543719,
+     25.032862
+    ]
+   },
+   "properties": {
+    "name": "大安站出口5",
+    "station": "大安",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.543749,
+     25.034006
+    ]
+   },
+   "properties": {
+    "name": "大安站出口6",
+    "station": "大安",
+    "exit_no": "6"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5469257,
+     25.08036069
+    ]
+   },
+   "properties": {
+    "name": "大直站出口1",
+    "station": "大直",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.546823,
+     25.079584
+    ]
+   },
+   "properties": {
+    "name": "大直站出口2",
+    "station": "大直",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5470127,
+     25.07943891
+    ]
+   },
+   "properties": {
+    "name": "大直站出口3",
+    "station": "大直",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6158607,
+     25.06038509
+    ]
+   },
+   "properties": {
+    "name": "南港軟體園區站出口1",
+    "station": "南港",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6163342,
+     25.06012071
+    ]
+   },
+   "properties": {
+    "name": "南港軟體園區站出口2",
+    "station": "南港",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6170736,
+     25.0557844
+    ]
+   },
+   "properties": {
+    "name": "南港展覽館站出口1",
+    "station": "南港展覽館",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6171863,
+     25.05540682
+    ]
+   },
+   "properties": {
+    "name": "南港展覽館站出口2",
+    "station": "南港展覽館",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.618239,
+     25.055123
+    ]
+   },
+   "properties": {
+    "name": "南港展覽館站出口3",
+    "station": "南港展覽館",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6182634,
+     25.055356
+    ]
+   },
+   "properties": {
+    "name": "南港展覽館站出口4",
+    "station": "南港展覽館",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6171997,
+     25.05533633
+    ]
+   },
+   "properties": {
+    "name": "南港展覽館站出口2A",
+    "station": "南港展覽館",
+    "exit_no": "2A"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.616861,
+     25.054917
+    ]
+   },
+   "properties": {
+    "name": "南港展覽館站出口5",
+    "station": "南港展覽館",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6179283,
+     25.05476367
+    ]
+   },
+   "properties": {
+    "name": "南港展覽館站出口6",
+    "station": "南港展覽館",
+    "exit_no": "6"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.618148,
+     25.054035
+    ]
+   },
+   "properties": {
+    "name": "南港展覽館站出口7",
+    "station": "南港展覽館",
+    "exit_no": "7"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5406932,
+     24.99213264
+    ]
+   },
+   "properties": {
+    "name": "景美站出口1",
+    "station": "景美",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.541517,
+     24.993069
+    ]
+   },
+   "properties": {
+    "name": "景美站出口2",
+    "station": "景美",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.540546,
+     24.992744
+    ]
+   },
+   "properties": {
+    "name": "景美站出口3",
+    "station": "景美",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.538896,
+     25.001367
+    ]
+   },
+   "properties": {
+    "name": "萬隆站出口1",
+    "station": "萬隆",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5395617,
+     25.0015087
+    ]
+   },
+   "properties": {
+    "name": "萬隆站出口2",
+    "station": "萬隆",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.539195,
+     25.002215
+    ]
+   },
+   "properties": {
+    "name": "萬隆站出口3",
+    "station": "萬隆",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.538572,
+     25.002676
+    ]
+   },
+   "properties": {
+    "name": "萬隆站出口4",
+    "station": "萬隆",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.534377,
+     25.014509
+    ]
+   },
+   "properties": {
+    "name": "公館站出口1",
+    "station": "公館",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.534721,
+     25.014718
+    ]
+   },
+   "properties": {
+    "name": "公館站出口2",
+    "station": "公館",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.534025,
+     25.015421
+    ]
+   },
+   "properties": {
+    "name": "公館站出口3",
+    "station": "公館",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.533623,
+     25.015148
+    ]
+   },
+   "properties": {
+    "name": "公館站出口4",
+    "station": "公館",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.528577,
+     25.01962
+    ]
+   },
+   "properties": {
+    "name": "台電大樓站出口1",
+    "station": "台電大樓",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.529093,
+     25.020192
+    ]
+   },
+   "properties": {
+    "name": "台電大樓站出口2",
+    "station": "台電大樓",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.527849,
+     25.021179
+    ]
+   },
+   "properties": {
+    "name": "台電大樓站出口3",
+    "station": "台電大樓",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.527297,
+     25.021018
+    ]
+   },
+   "properties": {
+    "name": "台電大樓站出口4",
+    "station": "台電大樓",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.527739,
+     25.020758
+    ]
+   },
+   "properties": {
+    "name": "台電大樓站出口5",
+    "station": "台電大樓",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.522973,
+     25.025976
+    ]
+   },
+   "properties": {
+    "name": "古亭站出口1",
+    "station": "古亭",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.523353,
+     25.025502
+    ]
+   },
+   "properties": {
+    "name": "古亭站出口2",
+    "station": "古亭",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.523477,
+     25.0259191
+    ]
+   },
+   "properties": {
+    "name": "古亭站出口3",
+    "station": "古亭",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5229835,
+     25.02655858
+    ]
+   },
+   "properties": {
+    "name": "古亭站出口4",
+    "station": "古亭",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.522873,
+     25.027184
+    ]
+   },
+   "properties": {
+    "name": "古亭站出口5",
+    "station": "古亭",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.522297,
+     25.027537
+    ]
+   },
+   "properties": {
+    "name": "古亭站出口6",
+    "station": "古亭",
+    "exit_no": "6"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5217067,
+     25.02772736
+    ]
+   },
+   "properties": {
+    "name": "古亭站出口7",
+    "station": "古亭",
+    "exit_no": "7"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.521894,
+     25.027056
+    ]
+   },
+   "properties": {
+    "name": "古亭站出口8",
+    "station": "古亭",
+    "exit_no": "8"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.522404,
+     25.026798
+    ]
+   },
+   "properties": {
+    "name": "古亭站出口9",
+    "station": "古亭",
+    "exit_no": "9"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.517599,
+     25.033345
+    ]
+   },
+   "properties": {
+    "name": "中正紀念堂站出口1",
+    "station": "中正紀念堂",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.518261,
+     25.032406
+    ]
+   },
+   "properties": {
+    "name": "中正紀念堂站出口2",
+    "station": "中正紀念堂",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.519,
+     25.032281
+    ]
+   },
+   "properties": {
+    "name": "中正紀念堂站出口3",
+    "station": "中正紀念堂",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51796,
+     25.033525
+    ]
+   },
+   "properties": {
+    "name": "中正紀念堂站出口4",
+    "station": "中正紀念堂",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5170711,
+     25.0352207
+    ]
+   },
+   "properties": {
+    "name": "中正紀念堂站出口5",
+    "station": "中正紀念堂",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.516543,
+     25.03588
+    ]
+   },
+   "properties": {
+    "name": "中正紀念堂站出口6",
+    "station": "中正紀念堂",
+    "exit_no": "6"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.515983,
+     25.034565
+    ]
+   },
+   "properties": {
+    "name": "中正紀念堂站出口7",
+    "station": "中正紀念堂",
+    "exit_no": "7"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.509752,
+     25.036434
+    ]
+   },
+   "properties": {
+    "name": "小南門站出口1",
+    "station": "小南門",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.509865,
+     25.035736
+    ]
+   },
+   "properties": {
+    "name": "小南門站出口2",
+    "station": "小南門",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.510988,
+     25.035309
+    ]
+   },
+   "properties": {
+    "name": "小南門站出口3",
+    "station": "小南門",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.511455,
+     25.035226
+    ]
+   },
+   "properties": {
+    "name": "小南門站出口4",
+    "station": "小南門",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.515731,
+     25.040913
+    ]
+   },
+   "properties": {
+    "name": "台大醫院站出口1",
+    "station": "台大醫院",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.516589,
+     25.041224
+    ]
+   },
+   "properties": {
+    "name": "台大醫院站出口2",
+    "station": "台大醫院",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.516632,
+     25.042808
+    ]
+   },
+   "properties": {
+    "name": "台大醫院站出口3",
+    "station": "台大醫院",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.516299,
+     25.042876
+    ]
+   },
+   "properties": {
+    "name": "台大醫院站出口4",
+    "station": "台大醫院",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.516246,
+     25.046755
+    ]
+   },
+   "properties": {
+    "name": "台北車站M5",
+    "station": "台北車站",
+    "exit_no": "M5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.516787,
+     25.046234
+    ]
+   },
+   "properties": {
+    "name": "台北車站M6",
+    "station": "台北車站",
+    "exit_no": "M6"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.518643,
+     25.046077
+    ]
+   },
+   "properties": {
+    "name": "台北車站M7",
+    "station": "台北車站",
+    "exit_no": "M7"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.517479,
+     25.045948
+    ]
+   },
+   "properties": {
+    "name": "台北車站M8",
+    "station": "台北車站",
+    "exit_no": "M8"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.518193,
+     25.048232
+    ]
+   },
+   "properties": {
+    "name": "台北車站M1",
+    "station": "台北車站",
+    "exit_no": "M1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51908,
+     25.048159
+    ]
+   },
+   "properties": {
+    "name": "台北車站M2",
+    "station": "台北車站",
+    "exit_no": "M2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.517882,
+     25.046337
+    ]
+   },
+   "properties": {
+    "name": "台北車站M3",
+    "station": "台北車站",
+    "exit_no": "M3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.517345,
+     25.046485
+    ]
+   },
+   "properties": {
+    "name": "台北車站M4",
+    "station": "台北車站",
+    "exit_no": "M4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.520588,
+     25.057499
+    ]
+   },
+   "properties": {
+    "name": "雙連站出口1",
+    "station": "雙連",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.520615,
+     25.057825
+    ]
+   },
+   "properties": {
+    "name": "雙連站出口2",
+    "station": "雙連",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.519454,
+     25.062641
+    ]
+   },
+   "properties": {
+    "name": "民權西路站出口1",
+    "station": "民權西路",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.519867,
+     25.061936
+    ]
+   },
+   "properties": {
+    "name": "民權西路站出口4",
+    "station": "民權西路",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51983,
+     25.061704
+    ]
+   },
+   "properties": {
+    "name": "民權西路站出口3",
+    "station": "民權西路",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51963,
+     25.061846
+    ]
+   },
+   "properties": {
+    "name": "民權西路站出口2",
+    "station": "民權西路",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5187721,
+     25.06324045
+    ]
+   },
+   "properties": {
+    "name": "民權西路站出口5",
+    "station": "民權西路",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5188804,
+     25.06273597
+    ]
+   },
+   "properties": {
+    "name": "民權西路站出口6",
+    "station": "民權西路",
+    "exit_no": "6"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.520172,
+     25.062699
+    ]
+   },
+   "properties": {
+    "name": "民權西路站出口7",
+    "station": "民權西路",
+    "exit_no": "7"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.520563,
+     25.062686
+    ]
+   },
+   "properties": {
+    "name": "民權西路站出口8",
+    "station": "民權西路",
+    "exit_no": "8"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.520591,
+     25.062952
+    ]
+   },
+   "properties": {
+    "name": "民權西路站出口9",
+    "station": "民權西路",
+    "exit_no": "9"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.520129,
+     25.062967
+    ]
+   },
+   "properties": {
+    "name": "民權西路站出口10",
+    "station": "民權西路",
+    "exit_no": "10"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.49953,
+     25.035484
+    ]
+   },
+   "properties": {
+    "name": "龍山寺站出口1",
+    "station": "龍山寺",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.499798,
+     25.035109
+    ]
+   },
+   "properties": {
+    "name": "龍山寺站出口2",
+    "station": "龍山寺",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.501622,
+     25.035421
+    ]
+   },
+   "properties": {
+    "name": "龍山寺站出口3",
+    "station": "龍山寺",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.523009,
+     25.045097
+    ]
+   },
+   "properties": {
+    "name": "善導寺站出口1",
+    "station": "善導寺",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.523053,
+     25.044796
+    ]
+   },
+   "properties": {
+    "name": "善導寺站出口2",
+    "station": "善導寺",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.523734,
+     25.044568
+    ]
+   },
+   "properties": {
+    "name": "善導寺站出口3",
+    "station": "善導寺",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.524217,
+     25.044111
+    ]
+   },
+   "properties": {
+    "name": "善導寺站出口4",
+    "station": "善導寺",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52482,
+     25.044256
+    ]
+   },
+   "properties": {
+    "name": "善導寺站出口5",
+    "station": "善導寺",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.524898,
+     25.044632
+    ]
+   },
+   "properties": {
+    "name": "善導寺站出口6",
+    "station": "善導寺",
+    "exit_no": "6"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.532065,
+     25.042103
+    ]
+   },
+   "properties": {
+    "name": "忠孝新生站出口2",
+    "station": "忠孝新生",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53368,
+     25.041783
+    ]
+   },
+   "properties": {
+    "name": "忠孝新生站出口3",
+    "station": "忠孝新生",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.533213,
+     25.042458
+    ]
+   },
+   "properties": {
+    "name": "忠孝新生站出口4",
+    "station": "忠孝新生",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.531829,
+     25.042784
+    ]
+   },
+   "properties": {
+    "name": "忠孝新生站出口1",
+    "station": "忠孝新生",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5323987,
+     25.0410441
+    ]
+   },
+   "properties": {
+    "name": "忠孝新生站出口5",
+    "station": "忠孝新生",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.533068,
+     25.040791
+    ]
+   },
+   "properties": {
+    "name": "忠孝新生站出口6",
+    "station": "忠孝新生",
+    "exit_no": "6"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.533068,
+     25.041729
+    ]
+   },
+   "properties": {
+    "name": "忠孝新生站出口7",
+    "station": "忠孝新生",
+    "exit_no": "7"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.550578,
+     25.041642
+    ]
+   },
+   "properties": {
+    "name": "忠孝敦化站出口1",
+    "station": "忠孝敦化",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.551694,
+     25.041632
+    ]
+   },
+   "properties": {
+    "name": "忠孝敦化站出口2",
+    "station": "忠孝敦化",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.551586,
+     25.04134
+    ]
+   },
+   "properties": {
+    "name": "忠孝敦化站出口3",
+    "station": "忠孝敦化",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.550567,
+     25.04135
+    ]
+   },
+   "properties": {
+    "name": "忠孝敦化站出口4",
+    "station": "忠孝敦化",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.549824,
+     25.041238
+    ]
+   },
+   "properties": {
+    "name": "忠孝敦化站出口5",
+    "station": "忠孝敦化",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.549174,
+     25.041029
+    ]
+   },
+   "properties": {
+    "name": "忠孝敦化站出口6",
+    "station": "忠孝敦化",
+    "exit_no": "6"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.549913,
+     25.041661
+    ]
+   },
+   "properties": {
+    "name": "忠孝敦化站出口7",
+    "station": "忠孝敦化",
+    "exit_no": "7"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.549194,
+     25.041928
+    ]
+   },
+   "properties": {
+    "name": "忠孝敦化站出口8",
+    "station": "忠孝敦化",
+    "exit_no": "8"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.556663,
+     25.041838
+    ]
+   },
+   "properties": {
+    "name": "國父紀念館站出口1",
+    "station": "國父紀念館",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.556704,
+     25.041029
+    ]
+   },
+   "properties": {
+    "name": "國父紀念館站出口2",
+    "station": "國父紀念館",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.557981,
+     25.041195
+    ]
+   },
+   "properties": {
+    "name": "國父紀念館站出口3",
+    "station": "國父紀念館",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.558539,
+     25.04117
+    ]
+   },
+   "properties": {
+    "name": "國父紀念館站出口4",
+    "station": "國父紀念館",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.558002,
+     25.041501
+    ]
+   },
+   "properties": {
+    "name": "國父紀念館站出口5",
+    "station": "國父紀念館",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.565459,
+     25.041408
+    ]
+   },
+   "properties": {
+    "name": "市政府站出口1",
+    "station": "市政府",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.565062,
+     25.040971
+    ]
+   },
+   "properties": {
+    "name": "市政府站出口2",
+    "station": "市政府",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.567149,
+     25.040903
+    ]
+   },
+   "properties": {
+    "name": "市政府站出口3",
+    "station": "市政府",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.567181,
+     25.041263
+    ]
+   },
+   "properties": {
+    "name": "市政府站出口4",
+    "station": "市政府",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.57512,
+     25.040995
+    ]
+   },
+   "properties": {
+    "name": "永春站出口1",
+    "station": "永春",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.575383,
+     25.040704
+    ]
+   },
+   "properties": {
+    "name": "永春站出口2",
+    "station": "永春",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.576155,
+     25.040704
+    ]
+   },
+   "properties": {
+    "name": "永春站出口3",
+    "station": "永春",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.576574,
+     25.040699
+    ]
+   },
+   "properties": {
+    "name": "永春站出口4",
+    "station": "永春",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.576622,
+     25.040961
+    ]
+   },
+   "properties": {
+    "name": "永春站出口5",
+    "station": "永春",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.58141,
+     25.044422
+    ]
+   },
+   "properties": {
+    "name": "後山埤站出口1",
+    "station": "後山埤",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.581854,
+     25.043703
+    ]
+   },
+   "properties": {
+    "name": "後山埤站出口2",
+    "station": "後山埤",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.583277,
+     25.045232
+    ]
+   },
+   "properties": {
+    "name": "後山埤站出口3",
+    "station": "後山埤",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.582441,
+     25.045653
+    ]
+   },
+   "properties": {
+    "name": "後山埤站出口4",
+    "station": "後山埤",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.592726,
+     25.050319
+    ]
+   },
+   "properties": {
+    "name": "昆陽站出口1",
+    "station": "昆陽",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.592825,
+     25.050402
+    ]
+   },
+   "properties": {
+    "name": "昆陽站出口2",
+    "station": "昆陽",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.59363,
+     25.050599
+    ]
+   },
+   "properties": {
+    "name": "昆陽站出口3",
+    "station": "昆陽",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.593799,
+     25.050572
+    ]
+   },
+   "properties": {
+    "name": "昆陽站出口4",
+    "station": "昆陽",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.606357,
+     25.051911
+    ]
+   },
+   "properties": {
+    "name": "南港站出口1",
+    "station": "南港",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.60743,
+     25.052025
+    ]
+   },
+   "properties": {
+    "name": "南港站出口2",
+    "station": "南港",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.569334,
+     25.0330078
+    ]
+   },
+   "properties": {
+    "name": "象山站出口1",
+    "station": "象山",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.569921,
+     25.032375
+    ]
+   },
+   "properties": {
+    "name": "象山站出口2",
+    "station": "象山",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.57062,
+     25.032974
+    ]
+   },
+   "properties": {
+    "name": "象山站出口3",
+    "station": "象山",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.561671,
+     25.033107
+    ]
+   },
+   "properties": {
+    "name": "台北101/世貿站出口1",
+    "station": "台北101/世貿",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5619435,
+     25.03284073
+    ]
+   },
+   "properties": {
+    "name": "台北101/世貿站出口2",
+    "station": "台北101/世貿",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.563646,
+     25.032742
+    ]
+   },
+   "properties": {
+    "name": "台北101/世貿站出口3",
+    "station": "台北101/世貿",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.564112,
+     25.033034
+    ]
+   },
+   "properties": {
+    "name": "台北101/世貿站出口4",
+    "station": "台北101/世貿",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.563292,
+     25.033102
+    ]
+   },
+   "properties": {
+    "name": "台北101/世貿站出口5",
+    "station": "台北101/世貿",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.552602,
+     25.033377
+    ]
+   },
+   "properties": {
+    "name": "信義安和站出口1",
+    "station": "信義安和",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.552332,
+     25.033032
+    ]
+   },
+   "properties": {
+    "name": "信義安和站出口2",
+    "station": "信義安和",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.552582,
+     25.032848
+    ]
+   },
+   "properties": {
+    "name": "信義安和站出口2A",
+    "station": "信義安和",
+    "exit_no": "2A"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.553282,
+     25.033022
+    ]
+   },
+   "properties": {
+    "name": "信義安和站出口3",
+    "station": "信義安和",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5534,
+     25.033022
+    ]
+   },
+   "properties": {
+    "name": "信義安和站出口4",
+    "station": "信義安和",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.553526,
+     25.033326
+    ]
+   },
+   "properties": {
+    "name": "信義安和站出口5",
+    "station": "信義安和",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.534442,
+     25.033693
+    ]
+   },
+   "properties": {
+    "name": "大安森林公園站出口1",
+    "station": "大安森林公園",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.534487,
+     25.033391
+    ]
+   },
+   "properties": {
+    "name": "大安森林公園站出口2",
+    "station": "大安森林公園",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.534882,
+     25.033396
+    ]
+   },
+   "properties": {
+    "name": "大安森林公園站出口3",
+    "station": "大安森林公園",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.535292,
+     25.033391
+    ]
+   },
+   "properties": {
+    "name": "大安森林公園站出口4",
+    "station": "大安森林公園",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.535989,
+     25.033369
+    ]
+   },
+   "properties": {
+    "name": "大安森林公園站出口5",
+    "station": "大安森林公園",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.535952,
+     25.033654
+    ]
+   },
+   "properties": {
+    "name": "大安森林公園站出口6",
+    "station": "大安森林公園",
+    "exit_no": "6"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.512319,
+     25.06318
+    ]
+   },
+   "properties": {
+    "name": "大橋頭站出口1",
+    "station": "大橋頭",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5117348,
+     25.06333204
+    ]
+   },
+   "properties": {
+    "name": "大橋頭站出口1A",
+    "station": "大橋頭",
+    "exit_no": "1A"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.513258,
+     25.063195
+    ]
+   },
+   "properties": {
+    "name": "大橋頭站出口2",
+    "station": "大橋頭",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51344,
+     25.063739
+    ]
+   },
+   "properties": {
+    "name": "大橋頭站出口3",
+    "station": "大橋頭",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.526095,
+     25.06284
+    ]
+   },
+   "properties": {
+    "name": "中山國小站出口1",
+    "station": "中山國小",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.526148,
+     25.062461
+    ]
+   },
+   "properties": {
+    "name": "中山國小站出口2",
+    "station": "中山國小",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.527114,
+     25.062476
+    ]
+   },
+   "properties": {
+    "name": "中山國小站出口3",
+    "station": "中山國小",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.526835,
+     25.062835
+    ]
+   },
+   "properties": {
+    "name": "中山國小站出口4",
+    "station": "中山國小",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.533047,
+     25.05810168
+    ]
+   },
+   "properties": {
+    "name": "行天宮站出口1",
+    "station": "行天宮",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.533342,
+     25.058792
+    ]
+   },
+   "properties": {
+    "name": "行天宮站出口2",
+    "station": "行天宮",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.533393,
+     25.059868
+    ]
+   },
+   "properties": {
+    "name": "行天宮站出口3",
+    "station": "行天宮",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.532991,
+     25.060365
+    ]
+   },
+   "properties": {
+    "name": "行天宮站出口4",
+    "station": "行天宮",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.527994,
+     25.034157
+    ]
+   },
+   "properties": {
+    "name": "東門站出口1",
+    "station": "東門",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.527565,
+     25.03422
+    ]
+   },
+   "properties": {
+    "name": "東門站出口2",
+    "station": "東門",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.527854,
+     25.033676
+    ]
+   },
+   "properties": {
+    "name": "東門站出口3",
+    "station": "東門",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.528879,
+     25.033646
+    ]
+   },
+   "properties": {
+    "name": "東門站出口4",
+    "station": "東門",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.529506,
+     25.033564
+    ]
+   },
+   "properties": {
+    "name": "東門站出口5",
+    "station": "東門",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.529957,
+     25.033924
+    ]
+   },
+   "properties": {
+    "name": "東門站出口6",
+    "station": "東門",
+    "exit_no": "6"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.529678,
+     25.033962
+    ]
+   },
+   "properties": {
+    "name": "東門站出口7",
+    "station": "東門",
+    "exit_no": "7"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.528965,
+     25.034074
+    ]
+   },
+   "properties": {
+    "name": "東門站出口8",
+    "station": "東門",
+    "exit_no": "8"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.542121,
+     25.052625
+    ]
+   },
+   "properties": {
+    "name": "南京復興站出口1",
+    "station": "南京復興",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.541863,
+     25.051748
+    ]
+   },
+   "properties": {
+    "name": "南京復興站出口2",
+    "station": "南京復興",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.543087,
+     25.05178085
+    ]
+   },
+   "properties": {
+    "name": "南京復興站出口3",
+    "station": "南京復興",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5431633,
+     25.0517841
+    ]
+   },
+   "properties": {
+    "name": "南京復興站出口4",
+    "station": "南京復興",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.544338,
+     25.051727
+    ]
+   },
+   "properties": {
+    "name": "南京復興站出口5",
+    "station": "南京復興",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5449255,
+     25.05195456
+    ]
+   },
+   "properties": {
+    "name": "南京復興站出口6",
+    "station": "南京復興",
+    "exit_no": "6"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.543819,
+     25.052018
+    ]
+   },
+   "properties": {
+    "name": "南京復興站出口8",
+    "station": "南京復興",
+    "exit_no": "8"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5445925,
+     25.0524873
+    ]
+   },
+   "properties": {
+    "name": "南京復興站出口7",
+    "station": "南京復興",
+    "exit_no": "7"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.520303,
+     25.052414
+    ]
+   },
+   "properties": {
+    "name": "中山站出口1",
+    "station": "中山",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.520306,
+     25.052858
+    ]
+   },
+   "properties": {
+    "name": "中山站出口4",
+    "station": "中山",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.521063,
+     25.052382
+    ]
+   },
+   "properties": {
+    "name": "中山站出口2",
+    "station": "中山",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.521154,
+     25.052611
+    ]
+   },
+   "properties": {
+    "name": "中山站出口3",
+    "station": "中山",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.519329,
+     25.053037
+    ]
+   },
+   "properties": {
+    "name": "中山站出口5",
+    "station": "中山",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.519007,
+     25.052833
+    ]
+   },
+   "properties": {
+    "name": "中山站出口6",
+    "station": "中山",
+    "exit_no": "6"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.507566,
+     25.042137
+    ]
+   },
+   "properties": {
+    "name": "西門站出口1",
+    "station": "西門",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.508435,
+     25.041545
+    ]
+   },
+   "properties": {
+    "name": "西門站出口2",
+    "station": "西門",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.508888,
+     25.041789
+    ]
+   },
+   "properties": {
+    "name": "西門站出口3",
+    "station": "西門",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.509006,
+     25.042203
+    ]
+   },
+   "properties": {
+    "name": "西門站出口4",
+    "station": "西門",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.508789,
+     25.042935
+    ]
+   },
+   "properties": {
+    "name": "西門站出口5",
+    "station": "西門",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.507602,
+     25.042573
+    ]
+   },
+   "properties": {
+    "name": "西門站出口6",
+    "station": "西門",
+    "exit_no": "6"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.532388,
+     25.051842
+    ]
+   },
+   "properties": {
+    "name": "松江南京站出口1",
+    "station": "松江南京",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.532875,
+     25.051342
+    ]
+   },
+   "properties": {
+    "name": "松江南京站出口2",
+    "station": "松江南京",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53287,
+     25.051085
+    ]
+   },
+   "properties": {
+    "name": "松江南京站出口3",
+    "station": "松江南京",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53324,
+     25.051624
+    ]
+   },
+   "properties": {
+    "name": "松江南京站出口4",
+    "station": "松江南京",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.534081,
+     25.051882
+    ]
+   },
+   "properties": {
+    "name": "松江南京站出口5",
+    "station": "松江南京",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.533808,
+     25.052205
+    ]
+   },
+   "properties": {
+    "name": "松江南京站出口6",
+    "station": "松江南京",
+    "exit_no": "6"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.533195,
+     25.05247
+    ]
+   },
+   "properties": {
+    "name": "松江南京站出口7",
+    "station": "松江南京",
+    "exit_no": "7"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.532826,
+     25.05257
+    ]
+   },
+   "properties": {
+    "name": "松江南京站出口8",
+    "station": "松江南京",
+    "exit_no": "8"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.509986,
+     25.048861
+    ]
+   },
+   "properties": {
+    "name": "北門站出口1",
+    "station": "北門",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.510506,
+     25.049583
+    ]
+   },
+   "properties": {
+    "name": "北門站出口2",
+    "station": "北門",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.510227,
+     25.049943
+    ]
+   },
+   "properties": {
+    "name": "北門站出口3",
+    "station": "北門",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.55153,
+     25.051836
+    ]
+   },
+   "properties": {
+    "name": "台北小巨蛋站出口1",
+    "station": "台北小巨蛋",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.550715,
+     25.051571
+    ]
+   },
+   "properties": {
+    "name": "台北小巨蛋站出口2",
+    "station": "台北小巨蛋",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.552549,
+     25.05152
+    ]
+   },
+   "properties": {
+    "name": "台北小巨蛋站出口3",
+    "station": "台北小巨蛋",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.552898,
+     25.051534
+    ]
+   },
+   "properties": {
+    "name": "台北小巨蛋站出口4",
+    "station": "台北小巨蛋",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.552069,
+     25.051838
+    ]
+   },
+   "properties": {
+    "name": "台北小巨蛋站出口5",
+    "station": "台北小巨蛋",
+    "exit_no": "5"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.563203,
+     25.051633
+    ]
+   },
+   "properties": {
+    "name": "南京三民站出口1",
+    "station": "南京三民",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.563073,
+     25.051215
+    ]
+   },
+   "properties": {
+    "name": "南京三民站出口2",
+    "station": "南京三民",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.564595,
+     25.051328
+    ]
+   },
+   "properties": {
+    "name": "南京三民站出口3",
+    "station": "南京三民",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.56471,
+     25.051588
+    ]
+   },
+   "properties": {
+    "name": "南京三民站出口4",
+    "station": "南京三民",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.577022,
+     25.050171
+    ]
+   },
+   "properties": {
+    "name": "松山站出口1",
+    "station": "松山",
+    "exit_no": "1"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.576244,
+     25.050171
+    ]
+   },
+   "properties": {
+    "name": "松山站出口2",
+    "station": "松山",
+    "exit_no": "2"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.577533,
+     25.049939
+    ]
+   },
+   "properties": {
+    "name": "松山站出口3",
+    "station": "松山",
+    "exit_no": "3"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.577971,
+     25.049799
+    ]
+   },
+   "properties": {
+    "name": "松山站出口4",
+    "station": "松山",
+    "exit_no": "4"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.577782,
+     25.050559
+    ]
+   },
+   "properties": {
+    "name": "松山站出口5",
+    "station": "松山",
+    "exit_no": "5"
+   }
+  }
+ ]
+}

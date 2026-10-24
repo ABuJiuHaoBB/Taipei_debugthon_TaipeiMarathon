@@ -1,0 +1,1685 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5145367,
+     25.0600982
+    ]
+   },
+   "properties": {
+    "name": "大同分局",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.4980121,
+     25.0384105
+    ]
+   },
+   "properties": {
+    "name": "萬華分局",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5232669,
+     25.0613605
+    ]
+   },
+   "properties": {
+    "name": "中山分局",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5389799,
+     25.0375641
+    ]
+   },
+   "properties": {
+    "name": "大安分局",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5174339,
+     25.0452045
+    ]
+   },
+   "properties": {
+    "name": "中正第一分局",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5138925,
+     25.0320895
+    ]
+   },
+   "properties": {
+    "name": "中正第二分局",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5524022,
+     25.0511476
+    ]
+   },
+   "properties": {
+    "name": "松山分局",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5676836,
+     25.0332607
+    ]
+   },
+   "properties": {
+    "name": "信義分局",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5264561,
+     25.0905836
+    ]
+   },
+   "properties": {
+    "name": "士林分局",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5012494,
+     25.1333937
+    ]
+   },
+   "properties": {
+    "name": "北投分局",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.541072,
+     24.9926338
+    ]
+   },
+   "properties": {
+    "name": "文山第二分局",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5967098,
+     25.0555617
+    ]
+   },
+   "properties": {
+    "name": "南港分局",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5896505,
+     25.0693507
+    ]
+   },
+   "properties": {
+    "name": "內湖分局",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5139447,
+     25.0611456
+    ]
+   },
+   "properties": {
+    "name": "刑事警察大隊",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.511141,
+     25.0350832
+    ]
+   },
+   "properties": {
+    "name": "交通警察大隊",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5744288,
+     25.0329718
+    ]
+   },
+   "properties": {
+    "name": "少年警察隊",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5744288,
+     25.0329718
+    ]
+   },
+   "properties": {
+    "name": "婦幼警察隊",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5188517,
+     25.0493257
+    ]
+   },
+   "properties": {
+    "name": "捷運警察隊",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.515122,
+     25.06375
+    ]
+   },
+   "properties": {
+    "name": "通信隊",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5154999,
+     25.0593832
+    ]
+   },
+   "properties": {
+    "name": "寧夏路派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5135075,
+     25.0687876
+    ]
+   },
+   "properties": {
+    "name": "民族路派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5134296,
+     25.0753644
+    ]
+   },
+   "properties": {
+    "name": "重慶北路派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5117293,
+     25.0522526
+    ]
+   },
+   "properties": {
+    "name": "延平派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5120342,
+     25.0594525
+    ]
+   },
+   "properties": {
+    "name": "民生西路派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5173257,
+     25.0527495
+    ]
+   },
+   "properties": {
+    "name": "建成派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5027307,
+     25.0451383
+    ]
+   },
+   "properties": {
+    "name": "西門町派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.4995702,
+     25.0386267
+    ]
+   },
+   "properties": {
+    "name": "龍山派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5004402,
+     25.0350412
+    ]
+   },
+   "properties": {
+    "name": "康定路派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.4982092,
+     25.0224134
+    ]
+   },
+   "properties": {
+    "name": "東園街派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.4957312,
+     25.0282136
+    ]
+   },
+   "properties": {
+    "name": "西園路派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.4983618,
+     25.0344782
+    ]
+   },
+   "properties": {
+    "name": "大理街派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.4930496,
+     25.0340548
+    ]
+   },
+   "properties": {
+    "name": "華江派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5031168,
+     25.0313017
+    ]
+   },
+   "properties": {
+    "name": "莒光派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5024805,
+     25.0220051
+    ]
+   },
+   "properties": {
+    "name": "青年路派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5214334,
+     25.0499859
+    ]
+   },
+   "properties": {
+    "name": "中山一派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5243138,
+     25.0562178
+    ]
+   },
+   "properties": {
+    "name": "中山二派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5237287,
+     25.0730044
+    ]
+   },
+   "properties": {
+    "name": "圓山派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5360285,
+     25.054627
+    ]
+   },
+   "properties": {
+    "name": "長春路派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5405301,
+     25.0484399
+    ]
+   },
+   "properties": {
+    "name": "長安東路派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.527951,
+     25.0598894
+    ]
+   },
+   "properties": {
+    "name": "民權一派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5359947,
+     25.0679949
+    ]
+   },
+   "properties": {
+    "name": "建國派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5441299,
+     25.0794845
+    ]
+   },
+   "properties": {
+    "name": "大直派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5340728,
+     25.0376711
+    ]
+   },
+   "properties": {
+    "name": "新生南路派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5305142,
+     25.0266684
+    ]
+   },
+   "properties": {
+    "name": "和平東路派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5522257,
+     25.0329465
+    ]
+   },
+   "properties": {
+    "name": "安和路派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5450232,
+     25.0311877
+    ]
+   },
+   "properties": {
+    "name": "瑞安街派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5439827,
+     25.0389179
+    ]
+   },
+   "properties": {
+    "name": "敦化南路派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5380463,
+     25.0109646
+    ]
+   },
+   "properties": {
+    "name": "羅斯福路派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5519383,
+     25.0179346
+    ]
+   },
+   "properties": {
+    "name": "臥龍街派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5100059,
+     25.0442979
+    ]
+   },
+   "properties": {
+    "name": "博愛路派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5271131,
+     25.0436441
+    ]
+   },
+   "properties": {
+    "name": "忠孝東路派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5154553,
+     25.0399715
+    ]
+   },
+   "properties": {
+    "name": "介壽路派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5226886,
+     25.0389524
+    ]
+   },
+   "properties": {
+    "name": "仁愛路派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5174148,
+     25.0451126
+    ]
+   },
+   "properties": {
+    "name": "忠孝西路派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5177012,
+     25.025813
+    ]
+   },
+   "properties": {
+    "name": "廈門街派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5319504,
+     25.0151132
+    ]
+   },
+   "properties": {
+    "name": "思源街派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5121726,
+     25.0242295
+    ]
+   },
+   "properties": {
+    "name": "泉州街派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5165756,
+     25.0323323
+    ]
+   },
+   "properties": {
+    "name": "南昌街派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5139625,
+     25.032035
+    ]
+   },
+   "properties": {
+    "name": "南海路派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5772601,
+     25.0497653
+    ]
+   },
+   "properties": {
+    "name": "松山派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5525137,
+     25.051116
+    ]
+   },
+   "properties": {
+    "name": "中崙派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5515386,
+     25.0569746
+    ]
+   },
+   "properties": {
+    "name": "東社派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5480315,
+     25.0617733
+    ]
+   },
+   "properties": {
+    "name": "民有派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5627762,
+     25.0591296
+    ]
+   },
+   "properties": {
+    "name": "三民派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5679819,
+     25.0332103
+    ]
+   },
+   "properties": {
+    "name": "三張犁派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5758458,
+     25.0456638
+    ]
+   },
+   "properties": {
+    "name": "五分埔派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5641499,
+     25.0265792
+    ]
+   },
+   "properties": {
+    "name": "吳興街派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5761106,
+     25.038529
+    ]
+   },
+   "properties": {
+    "name": "福德街派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5551418,
+     25.0236402
+    ]
+   },
+   "properties": {
+    "name": "六張犁派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5265986,
+     25.090616
+    ]
+   },
+   "properties": {
+    "name": "文林派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5055558,
+     25.0895982
+    ]
+   },
+   "properties": {
+    "name": "社子派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5180103,
+     25.0873254
+    ]
+   },
+   "properties": {
+    "name": "後港派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5247507,
+     25.1066479
+    ]
+   },
+   "properties": {
+    "name": "蘭雅派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5378369,
+     25.1010698
+    ]
+   },
+   "properties": {
+    "name": "芝山岩派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5329896,
+     25.1250397
+    ]
+   },
+   "properties": {
+    "name": "天母派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5404606,
+     25.1017969
+    ]
+   },
+   "properties": {
+    "name": "永福派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5458126,
+     25.134563
+    ]
+   },
+   "properties": {
+    "name": "山仔后派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5847481,
+     25.119727
+    ]
+   },
+   "properties": {
+    "name": "溪山派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.560188,
+     25.1080627
+    ]
+   },
+   "properties": {
+    "name": "翠山派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5012494,
+     25.1333937
+    ]
+   },
+   "properties": {
+    "name": "長安派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.4933213,
+     25.1455671
+    ]
+   },
+   "properties": {
+    "name": "大屯派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.4659708,
+     25.1229916
+    ]
+   },
+   "properties": {
+    "name": "關渡派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5486713,
+     25.1487834
+    ]
+   },
+   "properties": {
+    "name": "公園派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5079752,
+     25.1276466
+    ]
+   },
+   "properties": {
+    "name": "奇岩派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.540255,
+     25.1675757
+    ]
+   },
+   "properties": {
+    "name": "竹子湖派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5169487,
+     25.117952
+    ]
+   },
+   "properties": {
+    "name": "永明派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5124991,
+     25.1098867
+    ]
+   },
+   "properties": {
+    "name": "石牌派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.563533,
+     24.988713
+    ]
+   },
+   "properties": {
+    "name": "木柵派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5672808,
+     24.982431
+    ]
+   },
+   "properties": {
+    "name": "木新派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5470349,
+     24.9867741
+    ]
+   },
+   "properties": {
+    "name": "復興派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5779113,
+     24.9872894
+    ]
+   },
+   "properties": {
+    "name": "指南派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5660813,
+     25.0018161
+    ]
+   },
+   "properties": {
+    "name": "萬芳派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.541072,
+     24.9926338
+    ]
+   },
+   "properties": {
+    "name": "景美派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5512358,
+     25.0014845
+    ]
+   },
+   "properties": {
+    "name": "興隆派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5391233,
+     25.0038756
+    ]
+   },
+   "properties": {
+    "name": "萬盛派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5856583,
+     25.0460671
+    ]
+   },
+   "properties": {
+    "name": "同德派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6146446,
+     25.0610431
+    ]
+   },
+   "properties": {
+    "name": "南港派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6225119,
+     25.0384973
+    ]
+   },
+   "properties": {
+    "name": "舊莊派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5947914,
+     25.0551358
+    ]
+   },
+   "properties": {
+    "name": "玉成派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5895852,
+     25.0818067
+    ]
+   },
+   "properties": {
+    "name": "內湖派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5815697,
+     25.0552834
+    ]
+   },
+   "properties": {
+    "name": "潭美派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5693109,
+     25.0791107
+    ]
+   },
+   "properties": {
+    "name": "西湖派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6059182,
+     25.0740957
+    ]
+   },
+   "properties": {
+    "name": "大湖派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5789172,
+     25.0665969
+    ]
+   },
+   "properties": {
+    "name": "文德派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6130151,
+     25.0674097
+    ]
+   },
+   "properties": {
+    "name": "東湖派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6182825,
+     25.0703697
+    ]
+   },
+   "properties": {
+    "name": "康樂派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5975132,
+     25.0811666
+    ]
+   },
+   "properties": {
+    "name": "康寧派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5763626,
+     25.0787981
+    ]
+   },
+   "properties": {
+    "name": "港墘派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5043271,
+     25.1373606
+    ]
+   },
+   "properties": {
+    "name": "光明派出所",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5095902,
+     25.0438889
+    ]
+   },
+   "properties": {
+    "name": "臺北市政府警察局總局",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5636023,
+     24.9886672
+    ]
+   },
+   "properties": {
+    "name": "文山第一分局",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5596919,
+     25.0567111
+    ]
+   },
+   "properties": {
+    "name": "保安警察大隊",
+    "kind": "警察局",
+    "source": "北市府官方清單(地理編碼)"
+   }
+  }
+ ]
+}

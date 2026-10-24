@@ -1,0 +1,1679 @@
+{
+ "type": "FeatureCollection",
+ "features": [
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.56035,
+     24.99345
+    ]
+   },
+   "properties": {
+    "name": "木柵國小",
+    "code": "C003",
+    "district": "文山區",
+    "route": "秀明路一段木柵國小後門",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.49439240000001,
+     25.0353414
+    ]
+   },
+   "properties": {
+    "name": "和平環河",
+    "code": "C005",
+    "district": "萬華區",
+    "route": "和平西路三段、環河南路口(90.03.08更新資料拓建為口型、原∩型)",
+    "entries": 5,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5,
+     25.01
+    ]
+   },
+   "properties": {
+    "name": "萬大西藏",
+    "code": "C007",
+    "district": "萬華區",
+    "route": "萬大路、西藏路口",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.528247,
+     25.02447
+    ]
+   },
+   "properties": {
+    "name": "古亭國小",
+    "code": "C008",
+    "district": "中正區",
+    "route": "羅斯福路辛亥路北側、古亭國小前",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.520185,
+     25.020696
+    ]
+   },
+   "properties": {
+    "name": "水源同安",
+    "code": "C012",
+    "district": "中正區",
+    "route": "水源路、同安街口",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.514608,
+     25.02385
+    ]
+   },
+   "properties": {
+    "name": "水源詔安",
+    "code": "C013",
+    "district": "中正區",
+    "route": "水源路、詔安街38巷口",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51111,
+     25.06091
+    ]
+   },
+   "properties": {
+    "name": "太平國小",
+    "code": "C016",
+    "district": "大同區",
+    "route": "延平北路、涼州街口北側",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51831320000001,
+     25.062929599999997
+    ]
+   },
+   "properties": {
+    "name": "承德民權",
+    "code": "C017",
+    "district": "大同區",
+    "route": "承德路三段、民權西路口",
+    "entries": 5,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52566033333333,
+     25.062642666666665
+    ]
+   },
+   "properties": {
+    "name": "林森民權",
+    "code": "C018",
+    "district": "中山區",
+    "route": "民權東路一段、林森北路口",
+    "entries": 3,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.540891,
+     25.04472
+    ]
+   },
+   "properties": {
+    "name": "懷生國小",
+    "code": "C019",
+    "district": "大安區",
+    "route": "市民大道、懷生國小前",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5695675,
+     25.042740000000002
+    ]
+   },
+   "properties": {
+    "name": "忠孝松山",
+    "code": "C020",
+    "district": "信義區",
+    "route": "忠孝東路五段、松山路口",
+    "entries": 4,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5689631,
+     25.045701049999998
+    ]
+   },
+   "properties": {
+    "name": "興雅國小",
+    "code": "C021",
+    "district": "信義區",
+    "route": "永吉路30巷口",
+    "entries": 2,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.56949,
+     25.047307500000002
+    ]
+   },
+   "properties": {
+    "name": "松山永吉",
+    "code": "C022",
+    "district": "信義區",
+    "route": "松山路、永吉路口",
+    "entries": 4,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.48,
+     25.02
+    ]
+   },
+   "properties": {
+    "name": "萬大長泰",
+    "code": "C025",
+    "district": "萬華區",
+    "route": "萬大路、長泰街口",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.535191,
+     25.013733
+    ]
+   },
+   "properties": {
+    "name": "銘傳國小",
+    "code": "C026",
+    "district": "大安區",
+    "route": "羅斯福路四段、銘傳國小前",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51913,
+     25.04597
+    ]
+   },
+   "properties": {
+    "name": "行政院",
+    "code": "C029",
+    "district": "中正區",
+    "route": "忠孝西路、中山南路口",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.50343333333335,
+     25.085766666666668
+    ]
+   },
+   "properties": {
+    "name": "重慶葫東",
+    "code": "C030",
+    "district": "士林區",
+    "route": "重慶北路四段、葫東街口",
+    "entries": 3,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5246055,
+     25.09503425
+    ]
+   },
+   "properties": {
+    "name": "中正文林",
+    "code": "C031",
+    "district": "士林區",
+    "route": "士林、中正路、文林路口",
+    "entries": 4,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.54,
+     25.08
+    ]
+   },
+   "properties": {
+    "name": "通北",
+    "code": "C032",
+    "district": "中山區",
+    "route": "通北街",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.59553611,
+     25.05451944
+    ]
+   },
+   "properties": {
+    "name": "南港向陽",
+    "code": "C033",
+    "district": "南港區",
+    "route": "南港路2段  向陽路口",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.593791,
+     25.05461
+    ]
+   },
+   "properties": {
+    "name": "玉成國小",
+    "code": "C034",
+    "district": "南港區",
+    "route": "南港路三段、玉成國小前",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.59495000000001,
+     25.05384
+    ]
+   },
+   "properties": {
+    "name": "南港國中",
+    "code": "C035",
+    "district": "南港區",
+    "route": "向陽路31號玉成國小前",
+    "entries": 2,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5954,
+     25.0516
+    ]
+   },
+   "properties": {
+    "name": "向鐵",
+    "code": "C036",
+    "district": "南港區",
+    "route": "向陽路、鐵路平交道上",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.60815,
+     25.05695
+    ]
+   },
+   "properties": {
+    "name": "南港國小",
+    "code": "C037",
+    "district": "南港區",
+    "route": "南港路一段、研究院路口(經貿二路口)",
+    "entries": 2,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5816,
+     25.0788
+    ]
+   },
+   "properties": {
+    "name": "成功",
+    "code": "C038",
+    "district": "內湖區",
+    "route": "內湖成功路三段、方濟中學前",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51679999999999,
+     25.10297
+    ]
+   },
+   "properties": {
+    "name": "文林明德",
+    "code": "C040",
+    "district": "北投區",
+    "route": "文林路、明德路口",
+    "entries": 2,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.541277,
+     25.0401012
+    ]
+   },
+   "properties": {
+    "name": "懷生國中",
+    "code": "C044",
+    "district": "大安區",
+    "route": "忠孝東路三段248巷懷生國中前",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53481099999999,
+     25.026058
+    ]
+   },
+   "properties": {
+    "name": "新生和平",
+    "code": "C046",
+    "district": "大安區",
+    "route": "新生南路、和平東路口",
+    "entries": 4,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5789,
+     25.0502
+    ]
+   },
+   "properties": {
+    "name": "松山國小",
+    "code": "C048",
+    "district": "松山區",
+    "route": "八德路四段、松山國小前",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.548735,
+     24.98272
+    ]
+   },
+   "properties": {
+    "name": "景美女中",
+    "code": "C053",
+    "district": "文山區",
+    "route": "木新路三段、景美女中前",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5009,
+     25.088575
+    ]
+   },
+   "properties": {
+    "name": "延平中正",
+    "code": "C055",
+    "district": "士林區",
+    "route": "延平北路六段、中正路口",
+    "entries": 4,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.557629,
+     25.03000133333333
+    ]
+   },
+   "properties": {
+    "name": "三興",
+    "code": "C056",
+    "district": "大安區 - 信義區",
+    "route": "基隆路二段、光復南路口",
+    "entries": 3,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.50955,
+     25.09355
+    ]
+   },
+   "properties": {
+    "name": "陽明高中",
+    "code": "C057",
+    "district": "士林區",
+    "route": "士林中正路、福港路口",
+    "entries": 2,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5463825,
+     25.002612499999998
+    ]
+   },
+   "properties": {
+    "name": "辛亥興隆",
+    "code": "C059",
+    "district": "文山區",
+    "route": "辛亥路、興隆路口",
+    "entries": 4,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6078,
+     25.055066666666665
+    ]
+   },
+   "properties": {
+    "name": "忠孝研究",
+    "code": "C067",
+    "district": "南港區",
+    "route": "忠孝東路七段、研究院路口",
+    "entries": 3,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52,
+     25.05
+    ]
+   },
+   "properties": {
+    "name": "承德民生",
+    "code": "C069",
+    "district": "大同區",
+    "route": "承德路、民生西路交叉口",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5176985,
+     25.05325775
+    ]
+   },
+   "properties": {
+    "name": "承德南京",
+    "code": "C070",
+    "district": "大同區",
+    "route": "承德路二段、南京西路口",
+    "entries": 4,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5564515,
+     24.9834514
+    ]
+   },
+   "properties": {
+    "name": "實踐國中",
+    "code": "C071",
+    "district": "文山區",
+    "route": "忠順街一段",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.45,
+     25.12
+    ]
+   },
+   "properties": {
+    "name": "褔強",
+    "code": "C075",
+    "district": "北投區",
+    "route": "北投中央北路四段大度路旁",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51640499999999,
+     25.049030000000002
+    ]
+   },
+   "properties": {
+    "name": "承德市民",
+    "code": "C076",
+    "district": "中正區 - 大同區",
+    "route": "承德路一段、市民大道口",
+    "entries": 2,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.49244250000001,
+     25.020432999999997
+    ]
+   },
+   "properties": {
+    "name": "環南三段",
+    "code": "C078",
+    "district": "萬華區",
+    "route": "萬大路424巷、環河南路三段口",
+    "entries": 2,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.555,
+     25.0536
+    ]
+   },
+   "properties": {
+    "name": "南京三民",
+    "code": "C082",
+    "district": "松山區",
+    "route": "南京東路五段、三民路口",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51025,
+     25.02455
+    ]
+   },
+   "properties": {
+    "name": "古亭國中",
+    "code": "C084",
+    "district": "中正區 - 萬華區",
+    "route": "中華路二段(古亭國中前)",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.53267,
+     24.99732
+    ]
+   },
+   "properties": {
+    "name": "羅斯三福",
+    "code": "C001",
+    "district": "文山區",
+    "route": "羅斯福路六段、三福街口",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.540162,
+     25.0253073
+    ]
+   },
+   "properties": {
+    "name": "師專附小",
+    "code": "C058",
+    "district": "大安區",
+    "route": "和平東路二段師專附小前",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.513375,
+     25.1036
+    ]
+   },
+   "properties": {
+    "name": "文林福國",
+    "code": "C060",
+    "district": "士林區",
+    "route": "士林區文林路、福國路口",
+    "entries": 4,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5322,
+     25.0994
+    ]
+   },
+   "properties": {
+    "name": "至善",
+    "code": "C062",
+    "district": "士林區",
+    "route": "至善路一段7號望星橋前",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.54132,
+     24.98926
+    ]
+   },
+   "properties": {
+    "name": "考試院",
+    "code": "C064",
+    "district": "文山區",
+    "route": "木柵路一段考試院前",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.572805,
+     25.044825
+    ]
+   },
+   "properties": {
+    "name": "忠孝林口",
+    "code": "C065",
+    "district": "信義區",
+    "route": "忠孝東路五段、林口街交叉口",
+    "entries": 2,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.519982,
+     25.075306
+    ]
+   },
+   "properties": {
+    "name": "承德敦煌",
+    "code": "C072",
+    "district": "大同區",
+    "route": "承德路三段、敦煌路口",
+    "entries": 2,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.514542,
+     25.031892
+    ]
+   },
+   "properties": {
+    "name": "重慶南海",
+    "code": "C073",
+    "district": "中正區",
+    "route": "重慶南路二段、南海路口",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.4957455,
+     25.016879
+    ]
+   },
+   "properties": {
+    "name": "水源萬大",
+    "code": "C074",
+    "district": "萬華區",
+    "route": "水源路、萬大路口",
+    "entries": 2,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52555,
+     25.01594
+    ]
+   },
+   "properties": {
+    "name": "水源永春",
+    "code": "C077",
+    "district": "中正區",
+    "route": "水源路11號前(往河濱公園)",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.490837,
+     25.02467
+    ]
+   },
+   "properties": {
+    "name": "光復",
+    "code": "C079",
+    "district": "萬華區",
+    "route": "環河南路三段、光復橋旁",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.55954734999999,
+     25.0331949
+    ]
+   },
+   "properties": {
+    "name": "世貿",
+    "code": "C080",
+    "district": "信義區",
+    "route": "基隆路、信義路口",
+    "entries": 4,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.574,
+     25.048
+    ]
+   },
+   "properties": {
+    "name": "永吉國中",
+    "code": "C081",
+    "district": "松山區",
+    "route": "松隆路、永吉國中大門口前",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.534835,
+     25.004563
+    ]
+   },
+   "properties": {
+    "name": "景美堤外",
+    "code": "C085",
+    "district": "文山區",
+    "route": "景美堤外便道(溪州街)",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.58119,
+     25.0525
+    ]
+   },
+   "properties": {
+    "name": "成美長壽",
+    "code": "C086",
+    "district": "南港區 - 內湖區",
+    "route": "松山松河街至內湖潭美街(跨越基隆河)",
+    "entries": 6,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52,
+     25.05
+    ]
+   },
+   "properties": {
+    "name": "新興市場",
+    "code": "C087",
+    "district": "中山區",
+    "route": "新生北路錦州街旁新興市場旁",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.61046,
+     25.07123
+    ]
+   },
+   "properties": {
+    "name": "明湖國小",
+    "code": "C088",
+    "district": "內湖區",
+    "route": "康寧路三段明湖國小前",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.61192,
+     25.06772
+    ]
+   },
+   "properties": {
+    "name": "南湖國小",
+    "code": "C089",
+    "district": "內湖區",
+    "route": "康寧路三段南湖國小前",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5704903,
+     25.0458279
+    ]
+   },
+   "properties": {
+    "name": "永吉松隆",
+    "code": "C090",
+    "district": "信義區",
+    "route": "永吉路、松隆路口",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.57283666666666,
+     25.04545
+    ]
+   },
+   "properties": {
+    "name": "忠孝大道",
+    "code": "C091",
+    "district": "信義區",
+    "route": "忠孝東路五段大道路口",
+    "entries": 4,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5253279,
+     25.1136828
+    ]
+   },
+   "properties": {
+    "name": "天母橋附設",
+    "code": "C092",
+    "district": "士林區",
+    "route": "天母中山北路六段405巷跨磺溪",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.58573333333334,
+     25.052266666666664
+    ]
+   },
+   "properties": {
+    "name": "捷運昆陽站",
+    "code": "C093",
+    "district": "南港區",
+    "route": "忠孝東路六段昆陽街口",
+    "entries": 3,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.565764,
+     25.043706
+    ]
+   },
+   "properties": {
+    "name": "松山高中",
+    "code": "C094",
+    "district": "信義區",
+    "route": "基隆路、松隆路口",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5,
+     25.03
+    ]
+   },
+   "properties": {
+    "name": "中華景觀",
+    "code": "C095",
+    "district": "中正區 - 萬華區",
+    "route": "中華路一段、開封街口",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.503127,
+     25.117757
+    ]
+   },
+   "properties": {
+    "name": "承德吉利人行天橋",
+    "code": "C096",
+    "district": "北投區",
+    "route": "承德路七段與吉利路口",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.520464,
+     25.044146
+    ]
+   },
+   "properties": {
+    "name": "青島一館",
+    "code": "C097",
+    "district": "中正區",
+    "route": "青島東路至立法院一館前",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.563395,
+     25.033513
+    ]
+   },
+   "properties": {
+    "name": "金融世貿",
+    "code": "C098",
+    "district": "信義區",
+    "route": "台北國際金融中心聯接外貿協會展覽館市府路A1號橋",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.563443,
+     25.034907
+    ]
+   },
+   "properties": {
+    "name": "金融君悅",
+    "code": "C099",
+    "district": "信義區",
+    "route": "台北國際金融中心聯接外協會展覽館市府路A2號橋",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.564834,
+     25.034615
+    ]
+   },
+   "properties": {
+    "name": "金融紐約",
+    "code": "C100",
+    "district": "信義區",
+    "route": "台北國際金融中心聯接外協會展覽館市府路A3號橋",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.56685,
+     25.037652
+    ]
+   },
+   "properties": {
+    "name": "A8A9連通",
+    "code": "C101",
+    "district": "信義區",
+    "route": "信義計畫區A8A9土地二樓及三樓連通天橋",
+    "entries": 2,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.566821,
+     25.037627
+    ]
+   },
+   "properties": {
+    "name": "A9A11連通(一)",
+    "code": "C102",
+    "district": "信義區",
+    "route": "信義計畫區A9A11土地二樓、三樓連通天橋",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.56618,
+     25.03492
+    ]
+   },
+   "properties": {
+    "name": "華納紐約天橋",
+    "code": "C103",
+    "district": "信義區",
+    "route": "松壽路12-18間巷底C橋",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5670847,
+     25.0358019
+    ]
+   },
+   "properties": {
+    "name": "新光華納天橋",
+    "code": "C104",
+    "district": "信義區",
+    "route": "松壽路華納影城與新光三越A9間",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.554194,
+     25.077366
+    ]
+   },
+   "properties": {
+    "name": "樂群一號",
+    "code": "C105",
+    "district": "中山區",
+    "route": "大直樂群一路下塔悠公園",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.560136,
+     25.076718
+    ]
+   },
+   "properties": {
+    "name": "樂群二號",
+    "code": "C106",
+    "district": "中山區",
+    "route": "大直樂群一路下濱江國小旁",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.567023,
+     25.0391119
+    ]
+   },
+   "properties": {
+    "name": "新光松高天橋",
+    "code": "C107",
+    "district": "信義區",
+    "route": "新光三越A8A4館間天橋跨越松高路",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.566044,
+     25.076679
+    ]
+   },
+   "properties": {
+    "name": "樂群三號",
+    "code": "C108",
+    "district": "中山區",
+    "route": "大直樂群一路金泰里",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.50833,
+     25.02277
+    ]
+   },
+   "properties": {
+    "name": "騰雲",
+    "code": "C109",
+    "district": "萬華區",
+    "route": "國興路.水源路口",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.57444,
+     25.05583
+    ]
+   },
+   "properties": {
+    "name": "行善人行天橋",
+    "code": "C110",
+    "district": "內湖區",
+    "route": "行善路、堤頂大道一段口",
+    "entries": 4,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5767,
+     25.0515
+    ]
+   },
+   "properties": {
+    "name": "彩虹橋",
+    "code": "C111",
+    "district": "松山區 - 內湖區",
+    "route": "內湖新明路跨越基隆河至松山饒河街",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.568277,
+     25.037585
+    ]
+   },
+   "properties": {
+    "name": "A12松仁連通",
+    "code": "C112",
+    "district": "信義區",
+    "route": "信義區松仁路38號",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.52383,
+     25.07071
+    ]
+   },
+   "properties": {
+    "name": "中山酒泉",
+    "code": "C113",
+    "district": "中山區",
+    "route": "中山北路3段酒泉街口",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.50192,
+     25.09014
+    ]
+   },
+   "properties": {
+    "name": "社子國小",
+    "code": "C114",
+    "district": "士林區",
+    "route": "環河北路三段、社中街交叉口",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.507059,
+     25.083565
+    ]
+   },
+   "properties": {
+    "name": "葫蘆國小",
+    "code": "C115",
+    "district": "士林區",
+    "route": "環河北路三段95號",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5274,
+     25.07096
+    ]
+   },
+   "properties": {
+    "name": "太陽橋",
+    "code": "GL236",
+    "district": "中山區",
+    "route": "新生公園內",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.51635,
+     25.07681
+    ]
+   },
+   "properties": {
+    "name": "敦煌路景觀陸橋(二)",
+    "code": "GL237",
+    "district": "大同區",
+    "route": "敦煌路21巷",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.5157,
+     25.07671
+    ]
+   },
+   "properties": {
+    "name": "敦煌路景觀陸橋(一)",
+    "code": "GL238",
+    "district": "大同區",
+    "route": "敦煌路21巷",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.61489,
+     25.05871
+    ]
+   },
+   "properties": {
+    "name": "中信園區AC",
+    "code": "C116",
+    "district": "南港區",
+    "route": "南港區2-1計畫道路",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.6155,
+     25.05745
+    ]
+   },
+   "properties": {
+    "name": "中信園區(南)",
+    "code": "C117",
+    "district": "南港區",
+    "route": "南港區2-1計畫道路",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  },
+  {
+   "type": "Feature",
+   "geometry": {
+    "type": "Point",
+    "coordinates": [
+     121.61506,
+     25.05997
+    ]
+   },
+   "properties": {
+    "name": "中信園區(北)",
+    "code": "C118",
+    "district": "南港區",
+    "route": "南港經貿二路",
+    "entries": 1,
+    "source": "臺北市橋涵管理系統"
+   }
+  }
+ ]
+}
